@@ -1,91 +1,81 @@
 proxies:
-  - {name: 🇯🇵 YouTube-阿伟科技01/1-JP-10, server: 18.183.164.218, port: 15169, type: vmess, uuid: 0f2d3933-f314-47b3-9f9c-0dfcdb63907e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
-  - {name: 🇯🇵 YouTube-阿伟科技01/2-JP-10, server: 18.183.164.218, port: 15169, type: vmess, uuid: 6d183a39-9fc0-472e-98fb-4bee2a542db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
-  - {name: 🇺🇸 YouTube-阿伟科技01/3-US-10, server: 45.11.92.139, port: 32382, type: vmess, uuid: 711a60c6-5752-487f-80fb-5d410f0c2138, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 45.11.92.139}}
-  - {name: 🇭🇰 YouTube-阿伟科技02-HK-10, server: 120.232.214.25, port: 9443, type: vmess, uuid: f0dfedf9-81cc-4de2-8742-2dc758ee6c5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技02-HK-10 2, server: 120.232.214.25, port: 9444, type: vmess, uuid: 7bd09130-af71-42cf-b878-fc2e5039db8e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技02-HK-10 3, server: 120.232.214.25, port: 119, type: vmess, uuid: 9f073c5b-f926-41b4-8e80-20053976dc1c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技02-HK-10 4, server: 120.232.214.25, port: 121, type: vmess, uuid: cdc2e0f0-7b3c-4461-a8e2-ad054d5708fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技02-HK-10 5, server: 120.232.214.25, port: 122, type: vmess, uuid: 04ecb307-8d40-44ec-87db-9d8c63fc707a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 YouTube-阿伟科技02-JP-10, server: 120.232.214.25, port: 113, type: vmess, uuid: 51e1dd24-6880-4fe9-a9cf-24a48378585a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇰🇷 YouTube-阿伟科技02-KR-10, server: 120.232.214.25, port: 110, type: vmess, uuid: d36f13d5-5c92-45ef-8024-6c98614ab190, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 YouTube-阿伟科技02-SG-10, server: 120.232.214.25, port: 115, type: vmess, uuid: 5545d56c-47de-4161-8f58-16f21dbe6e7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技08-HK-10, server: 103.85.20.81, port: 12345, type: vmess, uuid: 03fafc6e-9a12-370f-990e-e36e51fcdd53, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技08-HK-10 2, server: 103.85.20.176, port: 12345, type: vmess, uuid: 10e1c13e-bc46-3f14-bb21-2d415c5e9de7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 YouTube-阿伟科技13-JP-10, server: azjp.v2jx.site, port: 80, type: vmess, uuid: a07a3bce-9419-445d-b239-7a96353ab972, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azjp.v2jx.site}}
-  - {name: 🇺🇸 YouTube-阿伟科技13-US-10, server: free-hk-a.uck.life, port: 26659, type: vmess, uuid: a07a3bce-9419-445d-b239-7a96353ab972, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-hk-a.uck.life}}
-  - {name: 🇭🇰 YouTube-阿伟科技16-HK-10, server: 18.167.94.242, port: 80, type: vmess, uuid: cec85927-8a7a-4866-df8c-27ed589de0ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇭🇰 YouTube-阿伟科技17-HK-10, server: gzcm.sspro.nl, port: 10799, type: vmess, uuid: fd252902-aac0-36be-8420-a3b23fe803af, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ssrgr-hk18, ws-headers: {Host: none}}
-  - {name: 🇯🇵 YouTube-阿伟科技18-JP-10, server: gzcm.sspro.nl, port: 10799, type: vmess, uuid: fd252902-aac0-36be-8420-a3b23fe803af, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ssrgr-jp3, ws-headers: {Host: none}}
-  - {name: 🇭🇰 YouTube-阿伟科技19-HK-10, server: gzcm.sspro.nl, port: 10799, type: vmess, uuid: fd252902-aac0-36be-8420-a3b23fe803af, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ssrgr-sg07, ws-headers: {Host: none}}
-  - {name: 🇸🇬 YouTube-阿伟科技20-SG-10, server: gzcm.sspro.nl, port: 10799, type: vmess, uuid: fd252902-aac0-36be-8420-a3b23fe803af, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ssrgr-sg05, ws-headers: {Host: none}}
-  - {name: 🇸🇬 YouTube-阿伟科技21-SG-10, server: gzcm.sspro.nl, port: 10799, type: vmess, uuid: fd252902-aac0-36be-8420-a3b23fe803af, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ssrgr-sg3, ws-headers: {Host: none}}
-  - {name: 🇸🇬 YouTube-阿伟科技22-SG-10, server: gzcm.sspro.nl, port: 10799, type: vmess, uuid: fd252902-aac0-36be-8420-a3b23fe803af, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ssrgr-sg01, ws-headers: {Host: none}}
-  - {name: 🇸🇬 YouTube-阿伟科技23-SG-10, server: gzcm.sspro.nl, port: 10799, type: vmess, uuid: fd252902-aac0-36be-8420-a3b23fe803af, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ssrgr-in02, ws-headers: {Host: none}}
-  - {name: 🇯🇵 YouTube-阿伟科技24-JP-10, server: 54.238.86.254, port: 13033, type: ss, cipher: chacha20-ietf-poly1305, password: DJLYliqCX9veEn0O14}
-  - {name: 🇺🇸 YouTube-阿伟科技25-US-10, server: 2.58.241.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇸🇬 YouTube-阿伟科技26-SG-10, server: 54.238.86.254, port: 13033, type: ss, cipher: chacha20-ietf-poly1305, password: DJLYliqCX9veEn0O14}
-  - {name: YouTube-阿伟科技-8, server: 103.152.151.68, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: YouTube-阿伟科技-8 2, server: 204.124.181.224, port: 26917, type: vmess, uuid: 3bc30c04-4854-47bc-80b5-4fbb2364006e, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: YouTube-阿伟科技DE-8, server: 37.120.217.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: YouTube-阿伟科技GB-8, server: 89.238.130.253, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: YouTube-阿伟科技GB-8 2, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: YouTube-阿伟科技GB-8 3, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇭🇰 YouTube-阿伟科技HK-8, server: 18.167.94.242, port: 80, type: vmess, uuid: cec85927-8a7a-4866-df8c-27ed589de0ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇭🇰 YouTube-阿伟科技HK-8 2, server: 32.ssrj.xyz, port: 65132, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技HK-8 3, server: 4.ssrj.xyz, port: 65104, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube-阿伟科技HK-8 4, server: 7.ssrj.xyz, port: 65107, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 YouTube-阿伟科技JP-8, server: 54.178.67.40, port: 80, type: vmess, uuid: 00000000-0000-0000-0000-000000000001, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 YouTube-阿伟科技JP-8 2, server: 11.ssrj.xyz, port: 65111, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 YouTube-阿伟科技JP-8 3, server: 3.ssrj.xyz, port: 65103, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: YouTube-阿伟科技RO-8, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: YouTube-阿伟科技SK-8, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳 YouTube-阿伟科技TW-8, server: 2.58.241.46, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇨🇳 YouTube-阿伟科技TW-8 2, server: 2.58.241.46, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇨🇳 YouTube-阿伟科技TW-8 3, server: 2.58.241.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇨🇳 YouTube-阿伟科技TW-8 4, server: 2.58.241.45, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇨🇳 YouTube-阿伟科技TW-8 5, server: 2.58.241.27, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇺🇸 YouTube-阿伟科技-US, server: 2.58.242.54, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 YouTube-阿伟科技-US 2, server: 2.58.242.54, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇺🇸 YouTube-阿伟科技-US 3, server: 2.58.242.54, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇸 YouTube-阿伟科技-US 4, server: 2.58.242.54, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 YouTube-阿伟科技-US 5, server: 107.150.8.102, port: 38924, type: vmess, uuid: b149e8e3-8c53-4c31-936f-db467c61766b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 YouTube-阿伟科技US-8, server: 104.200.131.167, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇺🇸 YouTube-阿伟科技US-8 2, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 YouTube-阿伟科技US-8 3, server: 104.200.131.167, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇭🇰 香港, server: 212.102.42.201, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇭🇰 香港 2, server: 212.102.42.201, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 🇭🇰 香港 3, server: 212.102.42.201, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇭🇰 香港 4, server: 212.102.42.201, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇭🇰 香港 5, server: 212.102.42.201, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇭🇰 香港 6, server: 212.102.42.201, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 🇭🇰 香港 7, server: 212.102.42.201, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇭🇰 香港 8, server: 212.102.42.201, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 🇭🇰 香港 9, server: 212.102.42.201, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇭🇰 香港 10, server: 212.102.42.201, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇭🇰 香港 11, server: 212.102.42.201, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇭🇰 香港 12, server: 212.102.42.201, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇭🇰 香港 13, server: 212.102.42.201, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 香港 14, server: 212.102.42.201, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇭🇰 香港 15, server: 212.102.42.201, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇭🇰 香港 16, server: 212.102.42.201, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 🇭🇰 香港 17, server: 212.102.42.201, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇭🇰 香港 18, server: 212.102.42.201, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇭🇰 香港 19, server: 212.102.42.201, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇭🇰 香港 20, server: 212.102.42.201, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇭🇰 香港 21, server: 212.102.42.201, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 🇭🇰 香港 22, server: 212.102.42.201, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇭🇰 香港 23, server: 212.102.42.201, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇭🇰 香港 24, server: 212.102.42.201, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇭🇰 香港 25, server: 212.102.42.201, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇭🇰 香港 26, server: 212.102.42.201, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇭🇰 香港 27, server: 212.102.42.201, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇭🇰 香港 28, server: 212.102.42.201, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 🇭🇰 香港 29, server: 212.102.42.201, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇭🇰 香港 30, server: 212.102.42.201, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇭🇰 香港 31, server: 212.102.42.201, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇭🇰 香港 32, server: 212.102.42.201, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇭🇰 香港 33, server: 212.102.42.201, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: 🇭🇰 香港 34, server: 212.102.42.201, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇭🇰 香港 35, server: 212.102.42.201, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇭🇰 香港 36, server: 212.102.42.201, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇭🇰 02-HK-13, server: 120.232.214.25, port: 9443, type: vmess, uuid: bfd4972e-7457-4485-8d9d-762ee1f7526a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 02-HK-13 2, server: 120.232.214.25, port: 9444, type: vmess, uuid: 7126391a-65ae-43db-baaa-3f0f0f1919df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 02-HK-13 3, server: 120.232.214.25, port: 9443, type: vmess, uuid: 4f18732f-8348-476b-b72c-c633269e15a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 02-HK-13 4, server: 120.232.214.25, port: 121, type: vmess, uuid: e88357f4-172d-4d8a-aa20-653b423d1205, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 02-jp-13, server: 120.232.214.25, port: 113, type: vmess, uuid: d0d7b67a-5deb-4ab6-8aa2-a1923d46dc08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇰🇷 02-KR-13, server: 120.232.214.25, port: 110, type: vmess, uuid: 9f073c5b-f926-41b4-8e80-20053976dc1c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 02-SG-13, server: 120.232.214.25, port: 115, type: vmess, uuid: f86eae44-1339-4532-b73b-7c0c06c08c49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 02-SG-13 2, server: 120.232.214.25, port: 115, type: vmess, uuid: be108df2-fc8b-4ad4-8796-e252e36848b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 12, server: 2.58.241.27, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 12 2, server: 2.58.241.27, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 12 3, server: 2.58.241.27, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 12 4, server: 2.58.241.27, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 12 5, server: 2.58.241.27, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 12 6, server: 2.58.241.27, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 12 7, server: 2.58.241.27, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 12 8, server: 2.58.241.27, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 12 9, server: 2.58.241.27, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 12 10, server: 2.58.241.27, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 12 11, server: 2.58.241.27, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 12 12, server: 2.58.241.27, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 12 13, server: 2.58.241.27, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 12 14, server: 2.58.241.27, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 12 15, server: 2.58.241.27, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 12 16, server: 2.58.241.27, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 12 17, server: 2.58.241.27, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 12 18, server: 2.58.241.27, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 12 19, server: 2.58.241.27, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 12 20, server: 2.58.241.27, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 12 21, server: 2.58.241.27, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 12 22, server: 2.58.241.27, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 12 23, server: 2.58.241.27, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 12 24, server: 2.58.241.27, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 12 25, server: 2.58.241.27, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 12 26, server: 2.58.241.27, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 12 27, server: 2.58.241.27, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 12 28, server: 2.58.241.27, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 12 29, server: 2.58.241.27, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 12 30, server: 2.58.241.29, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 12 31, server: 2.58.241.29, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 12 32, server: 2.58.241.29, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 13, server: 2.58.241.29, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 13 2, server: 2.58.241.29, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 13 3, server: 2.58.241.29, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 13 4, server: 2.58.241.29, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 13 5, server: 2.58.241.29, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 13 6, server: 2.58.241.29, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 13 7, server: 2.58.241.29, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 13 8, server: 2.58.241.29, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 13 9, server: 2.58.241.29, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 13 10, server: 2.58.241.29, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 13 11, server: 2.58.241.29, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 13 12, server: 2.58.241.29, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 13 13, server: 2.58.241.29, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 13 14, server: 2.58.241.29, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 13 15, server: 2.58.241.29, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 13 16, server: 2.58.241.29, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 13 17, server: 2.58.241.29, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 13 18, server: 2.58.241.29, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 🇭🇰 14-HK-13, server: 207.46.155.109, port: 80, type: vmess, uuid: 8998aedc-01a8-3f89-b1b4-e93f408081f7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇺🇸 14-US-13, server: 52.175.13.216, port: 15926, type: vmess, uuid: 8998aedc-01a8-3f89-b1b4-e93f408081f7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: 52.175.13.216}}
+  - {name: 8, server: 103.152.151.68, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: DE-8, server: 37.120.217.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: GB, server: 89.238.130.253, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: GB-8, server: 89.238.130.253, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: GB-8 2, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: GB-8 3, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇭🇰 HK-8, server: 18.167.94.242, port: 80, type: vmess, uuid: cec85927-8a7a-4866-df8c-27ed589de0ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: ITA, server: 212.102.44.86, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: ITA 2, server: 212.102.44.86, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇯🇵 JP-8, server: 54.178.67.40, port: 80, type: vmess, uuid: 00000000-0000-0000-0000-000000000001, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RO-8, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ROM, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: SK-8, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 TW-8, server: 2.58.241.27, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇺🇸 US, server: 2.58.242.54, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 US 2, server: 2.58.242.54, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇺🇸 US 3, server: 2.58.242.54, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇺🇸 US 4, server: 2.58.242.54, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 US-8, server: 104.200.131.167, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇺🇸 US-8 2, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
