@@ -35,4 +35,3 @@ proxies:
   - {name: 节点-17 18, server: 192.169.112.180, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 节点-17 19, server: 192.169.112.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 节点-17 20, server: 192.169.112.182, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 节点2-HK-17, server: 120.232.214.25, port: 122, type: vmess, uuid: 1224842a-41e4-4c79-a8b5-8bd9dbf6e72e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
