@@ -1,4 +1,21 @@
 proxies:
+  - {name: 节点21, server: 61.14.210.232, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 节点21 2, server: 61.14.210.232, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 节点21 3, server: 61.14.210.232, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 节点21 4, server: 61.14.210.232, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 节点21 5, server: 61.14.210.232, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 节点21 6, server: 61.14.210.232, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 节点21 7, server: 61.14.210.232, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇯🇵 节点JP-21, server: word.2.fuckword.club, port: 48751, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: word.2.fuckword.club, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21, server: 3.jp.zz.xxxxx.x-t-fuckword.network, port: 36675, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21 2, server: gb1.v2.zz.cn.fuckword.club, port: 47836, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: gb1.v2.zz.cn.fuckword.club, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21 3, server: 2.jp.zz.xxxxx.x-t-fuckword.network, port: 36671, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 2.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21, server: 120.232.214.25, port: 119, type: vmess, uuid: 4e4b93fe-c5b8-49be-b776-486c59f4b87a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21 2, server: 120.232.214.25, port: 9444, type: vmess, uuid: fd9df680-e28e-4464-9a5b-67c627b28ce3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21 3, server: 120.232.214.25, port: 121, type: vmess, uuid: 2ece990a-729c-49e1-8ef4-727c9661bd36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21 4, server: 120.232.214.25, port: 9444, type: vmess, uuid: b79c7392-74af-44df-8912-023698f57945, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21 5, server: 120.232.214.25, port: 119, type: vmess, uuid: 4e555039-a199-4ee7-87fb-81595cb9fca1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 节点HK-21 6, server: 120.232.214.25, port: 121, type: vmess, uuid: df814a07-ed95-4653-946f-5ba30b961072, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇭🇰 节点HK-19, server: 137.116.162.163, port: 15136, type: vmess, uuid: d5da51af-e2ba-452c-bbb6-a2a09e076ad8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 节点HK-19 2, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 09d2ed29-18b4-43a8-9adb-a5f4b5ce5663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
   - {name: 🇭🇰 节点HK-19 3, server: hk1.v2.qjnodeip.xyz, port: 23333, type: vmess, uuid: 9B996B52-3EB5-6791-0713-4AF322A39B7C, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
