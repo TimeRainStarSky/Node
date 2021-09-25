@@ -1,54 +1,30 @@
 proxies:
-  - {name: 节点21, server: 61.14.210.232, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 节点21 2, server: 61.14.210.232, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: 节点21 3, server: 61.14.210.232, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 节点21 4, server: 61.14.210.232, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 节点21 5, server: 61.14.210.232, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 节点21 6, server: 61.14.210.232, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: 节点21 7, server: 61.14.210.232, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇯🇵 节点JP-21, server: word.2.fuckword.club, port: 48751, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: word.2.fuckword.club, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21, server: 3.jp.zz.xxxxx.x-t-fuckword.network, port: 36675, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21 2, server: gb1.v2.zz.cn.fuckword.club, port: 47836, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: gb1.v2.zz.cn.fuckword.club, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21 3, server: 2.jp.zz.xxxxx.x-t-fuckword.network, port: 36671, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 2.jp.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21, server: 120.232.214.25, port: 119, type: vmess, uuid: 4e4b93fe-c5b8-49be-b776-486c59f4b87a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21 2, server: 120.232.214.25, port: 9444, type: vmess, uuid: fd9df680-e28e-4464-9a5b-67c627b28ce3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21 3, server: 120.232.214.25, port: 121, type: vmess, uuid: 2ece990a-729c-49e1-8ef4-727c9661bd36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21 4, server: 120.232.214.25, port: 9444, type: vmess, uuid: b79c7392-74af-44df-8912-023698f57945, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21 5, server: 120.232.214.25, port: 119, type: vmess, uuid: 4e555039-a199-4ee7-87fb-81595cb9fca1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-21 6, server: 120.232.214.25, port: 121, type: vmess, uuid: df814a07-ed95-4653-946f-5ba30b961072, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-19, server: 137.116.162.163, port: 15136, type: vmess, uuid: d5da51af-e2ba-452c-bbb6-a2a09e076ad8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-19 2, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 09d2ed29-18b4-43a8-9adb-a5f4b5ce5663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇭🇰 节点HK-19 3, server: hk1.v2.qjnodeip.xyz, port: 23333, type: vmess, uuid: 9B996B52-3EB5-6791-0713-4AF322A39B7C, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-19 4, server: 18.167.36.24, port: 56789, type: vmess, uuid: 48eda63e-f681-4e24-a563-204e4b3774c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.167.36.24}}
-  - {name: 🇭🇰 节点HK-19 5, server: 120.232.214.25, port: 9444, type: vmess, uuid: 1224842a-41e4-4c79-a8b5-8bd9dbf6e72e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-19 6, server: 120.232.214.25, port: 119, type: vmess, uuid: 7fbc2b5c-a2fc-41cf-8090-5ed9c4e7da78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-19 7, server: 120.232.214.25, port: 121, type: vmess, uuid: 81b962e4-17bb-4ba7-9cf9-bd8b8f104a20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 节点HK-19 8, server: 120.232.214.25, port: 122, type: vmess, uuid: 0730631d-3985-461c-90f1-8925802ffc04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 节点jp-19, server: zl-jp-2.no-ne.xyz, port: 10161, type: vmess, uuid: 90283878-a928-413a-a1b2-1781b3d68c79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /alun, ws-headers: {Host: zl-jp-2.no-ne.xyz}}
-  - {name: 🇯🇵 节点jp-19 2, server: zl-jp-2.no-ne.xyz, port: 10161, type: vmess, uuid: a4e572a9-5bcc-4a3c-b471-9e7aaca136d8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /alun, ws-headers: {Host: zl-jp-2.no-ne.xyz}}
-  - {name: 🇯🇵 节点jp-19 3, server: 120.232.41.3, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
-  - {name: 🇯🇵 节点jp-19 4, server: 89.31.126.155, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇸🇬 节点SG-19, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 09d2ed29-18b4-43a8-9adb-a5f4b5ce5663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇨🇳 节点TW-19, server: 137.116.162.163, port: 50300, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 节点US-19, server: 137.116.162.163, port: 31258, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 节点US-19 2, server: 137.116.162.163, port: 60196, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 节点-17, server: 104.17.96.178, port: 443, type: vmess, uuid: 314915fc-a65c-413c-b033-073809fef6f5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: heroku.xhrzg2017.workers.dev}}
-  - {name: 节点-17 2, server: azure-f4s-hk.transfer-xray.tk, port: 15136, type: vmess, uuid: d5da51af-e2ba-452c-bbb6-a2a09e076ad8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 节点-17 3, server: 192.169.112.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 4, server: 192.169.112.166, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 5, server: 192.169.112.167, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 6, server: 192.169.112.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 7, server: 192.169.112.169, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 8, server: 192.169.112.170, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 9, server: 192.169.112.171, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 10, server: 192.169.112.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 11, server: 192.169.112.173, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 12, server: 192.169.112.174, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 13, server: 192.169.112.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 14, server: 192.169.112.176, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 15, server: 192.169.112.177, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 16, server: 192.169.112.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 17, server: 192.169.112.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 18, server: 192.169.112.180, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 19, server: 192.169.112.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 节点-17 20, server: 192.169.112.182, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 Node sg, server: 13.76.156.155, port: 80, type: vmess, uuid: 3134b7d9-e603-4516-98e8-2d7fab3094d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Node IND, server: 2.1.1.fuckppppp.today, port: 53126, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇦🇺 Node 澳大利亚, server: word.13.1.fuckword.club, port: 53127, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 Node 英国, server: 3.8.1.fuckppppp.today, port: 53125, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 2, server: word.18.fuckword.club, port: 58417, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 3, server: 7.hk.zz.xxxxx.x-t-fuckword.network, port: 58416, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 4, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 5, server: 3.2.1.fuckppppp.today, port: 60302, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 6, server: 7.hk.zz.xxxxx.x-t-fuckword.network, port: 58416, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 7, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 8, server: 3.2.1.fuckppppp.today, port: 60302, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Node HK 9, server: 23.97.75.226, port: 80, type: vmess, uuid: 84084183-c9fe-4a2b-d6f9-d1f01a443ac0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 Node SG, server: icajm.moox.icu, port: 34019, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇭🇰 Node HK 10, server: hk02.yitaiml.xyz, port: 80, type: vmess, uuid: de904e54-0d38-4e51-b067-109374083d01, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇺🇸 Node US, server: 37.120.217.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 Node US 2, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 Node US 3, server: 212.102.44.86, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 Node US 4, server: 146.70.27.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 Node US 5, server: 89.238.130.253, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 Node US 6, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇯🇵 Node JP, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 00c3083c-9923-41d1-8ca9-4ce565870424, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇺🇸 Node US 7, server: 96.43.91.59, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇯🇵 Node JP 2, server: 18.183.164.218, port: 26423, type: vmess, uuid: 6d183a39-9fc0-472e-98fb-4bee2a542db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
+  - {name: 🇯🇵 Node JP 3, server: 18.183.164.218, port: 26423, type: vmess, uuid: 0f2d3933-f314-47b3-9f9c-0dfcdb63907e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
+  - {name: 🇯🇵 Node JP 4, server: 18.183.164.218, port: 26423, type: vmess, uuid: 0f2d3933-f314-47b3-9f9c-0dfcdb63907e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
+  - {name: 🇭🇰 Node HK 11, server: azhk3.v2jx.site, port: 80, type: vmess, uuid: 397477b3-d469-431e-825f-22847a0e70fa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.v2jx.site}}
+  - {name: 🇨🇳 Node TW, server: 914tw.v2jx.site, port: 80, type: vmess, uuid: 397477b3-d469-431e-825f-22847a0e70fa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 914tw.v2jx.site}}
+  - {name: Node , server: azure.f4s.hxcy.club, port: 20011, type: vmess, uuid: 397477b3-d469-431e-825f-22847a0e70fa, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azure.f4s.hxcy.club}}
