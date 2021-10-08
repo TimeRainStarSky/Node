@@ -1,36 +1,36 @@
 proxies:
-  - {name: 🇭🇰 Node HK3, server: 52.175.10.44, port: 80, type: vmess, uuid: f0b79176-b05d-4efc-af2a-0044541cabae, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2r.meowu.cc, ws-headers: {Host: a.189.cn}}
-  - {name: 🇺🇸 Node US3, server: 23.97.64.112, port: 60110, type: vmess, uuid: f0b79176-b05d-4efc-af2a-0044541cabae, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2r.meowu.cc, ws-headers: {Host: 23.97.64.112}}
-  - {name: 🇭🇰 Node HK2, server: 23.97.64.112, port: 64110, type: vmess, uuid: f0b79176-b05d-4efc-af2a-0044541cabae, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2r.meowu.cc, ws-headers: {Host: 23.97.64.112}}
-  - {name: 🇯🇵 Node JP4, server: 23.97.64.112, port: 40082, type: vmess, uuid: f0b79176-b05d-4efc-af2a-0044541cabae, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2r.meowu.cc, ws-headers: {Host: 23.97.64.112}}
-  - {name: Node , server: azhk.gayv.online, port: 51585, type: vmess, uuid: 56a5706a-741c-48e8-9352-00d669fc5971, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.gayv.online}}
-  - {name: Node IND, server: azhk.gayv.online, port: 17454, type: vmess, uuid: 56a5706a-741c-48e8-9352-00d669fc5971, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.gayv.online}}
-  - {name: Node 2, server: azhk.gayv.online, port: 17481, type: vmess, uuid: 56a5706a-741c-48e8-9352-00d669fc5971, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.gayv.online}}
-  - {name: Node 3, server: 52.184.15.97, port: 46665, type: vmess, uuid: 6714f865-a197-34fc-a634-93ea7a6e46a7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Node 4, server: jm.01.nkeo.top, port: 49982, type: vmess, uuid: 6714f865-a197-34fc-a634-93ea7a6e46a7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 167.179.101.214}}
-  - {name: 🇺🇸 Node US, server: jm.01.nkeo.top, port: 47765, type: vmess, uuid: 6714f865-a197-34fc-a634-93ea7a6e46a7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: us3.rymv2rayssl.xyz}}
-  - {name: Node IND3, server: vip345.xyz, port: 59417, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇨🇳 Node TW3, server: vip345.xyz, port: 35230, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇸🇬 Node SG5, server: vip345.xyz, port: 59477, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇯🇵 Node JP, server: vip345.xyz, port: 56271, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}}
-  - {name: Node 3, server: vip345.xyz, port: 57361, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 Node HK, server: azhk3.v2jx.site, port: 80, type: vmess, uuid: 30dd72ce-2760-4e5d-bdb9-b05b4e47d78f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.v2jx.site}}
-  - {name: 🇺🇸 Node US 2, server: azure.f4s.hxcy.club, port: 20010, type: vmess, uuid: 30dd72ce-2760-4e5d-bdb9-b05b4e47d78f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azure.f4s.hxcy.club}}
-  - {name: 🇸🇬 Node sg, server: 13.76.156.155, port: 80, type: vmess, uuid: 3134b7d9-e603-4516-98e8-2d7fab3094d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Node IND 2, server: 2.1.1.fuckppppp.today, port: 53126, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 Node HK 2, server: 7.hk.zz.xxxxx.x-t-fuckword.network, port: 58416, type: vmess, uuid: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 Node HK 3, server: 23.97.75.226, port: 80, type: vmess, uuid: 84084183-c9fe-4a2b-d6f9-d1f01a443ac0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 Node US 3, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 Node US 4, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 Node US 5, server: 96.43.91.59, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇯🇵 Node JP 2, server: 18.183.164.218, port: 26423, type: vmess, uuid: 0f2d3933-f314-47b3-9f9c-0dfcdb63907e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
-  - {name: 🇯🇵 Node JP 3, server: 18.183.164.218, port: 26423, type: vmess, uuid: 0f2d3933-f314-47b3-9f9c-0dfcdb63907e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
-  - {name: 🇯🇵 Node JP 4, server: 18.183.164.218, port: 26423, type: vmess, uuid: 711a60c6-5752-487f-80fb-5d410f0c2138, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.183.164.218}}
-  - {name: 🇺🇸 Node US 6, server: 79.110.54.133, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇸 Node US 7, server: 79.110.54.133, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇺🇸 Node US 8, server: 79.110.54.133, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇰🇷 Node KR, server: 61.14.210.232, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇰🇷 Node KR 2, server: 61.14.210.232, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇬🇧 Node 英国, server: azhk.gayv.online, port: 51585, type: vmess, uuid: 56a5706a-741c-48e8-9352-00d669fc5971, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.gayv.online}}
-  - {name: Node IND 3, server: azhk.gayv.online, port: 17454, type: vmess, uuid: 56a5706a-741c-48e8-9352-00d669fc5971, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.gayv.online}}
-  - {name: Node ca, server: azhk.gayv.online, port: 17481, type: vmess, uuid: 56a5706a-741c-48e8-9352-00d669fc5971, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.gayv.online}}
+  - {name: 🇯🇵 日本, server: 58.32.11.14, port: 65531, type: vmess, uuid: 36717134-0ea9-3ac0-ab61-f5e302fd3984, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mydisk, ws-headers: {Host: wx.tenpay.com}}
+  - {name: 🇭🇰 香港, server: 162.14.17.120, port: 58511, type: vmess, uuid: 4f8a55cd-3577-3e6a-9cc7-068d5c5f4ed8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: 5.181.5.190, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本 3, server: 5.181.5.190, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本 4, server: 5.181.5.190, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本 5, server: 58.32.11.14, port: 65531, type: vmess, uuid: 36717134-0ea9-3ac0-ab61-f5e302fd3984, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mydisk, ws-headers: {Host: wx.tenpay.com}}
+  - {name: 🇯🇵 日本 6, server: azure-f4s-hk.transfer-xray.tk, port: 13511, type: vmess, uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: wx.tenpay.com}}
+  - {name: 🇭🇰 香港 2, server: 162.14.17.120, port: 58511, type: vmess, uuid: 4f8a55cd-3577-3e6a-9cc7-068d5c5f4ed8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国, server: 45.33.48.207, port: 11160, type: vmess, uuid: c20a8a2b-5fbe-4c5f-95d7-807099b173ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: wx.tenpay.com}}
+  - {name: 🇯🇵 日本 7, server: 54.222.181.40, port: 50000, type: vmess, uuid: aef6d3f0-4b42-4c0b-9688-536f3f524f99, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.222.181.40}}
+  - {name: 🇭🇰 香港 3, server: 54.222.181.40, port: 55555, type: vmess, uuid: aef6d3f0-4b42-4c0b-9688-536f3f524f99, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.222.181.40}}
+  - {name: 🇯🇵 日本 8, server: 54.222.181.40, port: 50000, type: vmess, uuid: 856cbc0c-7394-4110-b577-75ebca6ba8d9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.222.181.40}}
+  - {name: 🇰🇷 韩国, server: 54.222.181.40, port: 60000, type: vmess, uuid: 856cbc0c-7394-4110-b577-75ebca6ba8d9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.222.181.40}}
+  - {name: 🇭🇰 香港 4, server: 54.222.181.40, port: 55555, type: vmess, uuid: 856cbc0c-7394-4110-b577-75ebca6ba8d9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.222.181.40}}
+  - {name: 🇮🇳 印度, server: 54.222.181.40, port: 22222, type: vmess, uuid: 856cbc0c-7394-4110-b577-75ebca6ba8d9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.222.181.40}}
+  - {name: 🇨🇳 台湾, server: fsy02.tedsc.online, port: 25543, type: vmess, uuid: 923ea8e7-0a1f-3d11-8ed2-7a1d9b9ef10d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: fsy02.tedsc.online}}
+  - {name: 🇯🇵 日本 9, server: gy.jjxcloud.xyz, port: 51520, type: vmess, uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.jjxcloud.xyz}}
+  - {name: 🇭🇰 香港 5, server: gy.jjxcloud.xyz, port: 52520, type: vmess, uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.jjxcloud.xyz}}
+  - {name: 🇭🇰 香港 6, server: 118.107.244.113, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 香港 7, server: 118.107.244.114, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 2, server: 192.169.112.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 3, server: 192.169.112.166, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 4, server: 192.169.112.176, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 5, server: 192.169.112.177, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 6, server: 192.169.112.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 7, server: 79.110.54.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 中国, server: 89.238.130.253, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇨🇳 中国 2, server: 89.238.130.253, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇯🇵 日本 10, server: 185.168.20.43, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本 11, server: 185.168.20.205, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本 12, server: 45.11.1.158, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 日本 13, server: 45.11.1.158, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇯🇵 日本 14, server: 45.11.1.158, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇷🇺 俄罗斯, server: ahl02.tedsc.online, port: 25536, type: vmess, uuid: 923ea8e7-0a1f-3d11-8ed2-7a1d9b9ef10d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ahl02.tedsc.online}}
+  - {name: 🇨🇳 台湾 2, server: fsy02.tedsc.online, port: 25542, type: vmess, uuid: 923ea8e7-0a1f-3d11-8ed2-7a1d9b9ef10d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: fsy02.tedsc.online}}
