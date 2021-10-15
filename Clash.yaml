@@ -1,49 +1,38 @@
 proxies:
-  - {name: 🇯🇵 日本, server: 52.80.255.101, port: 39821, type: vmess, uuid: 85080e4a-1f11-4665-8e9b-dc558f90a1ca, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.255.101}}
-  - {name: 🇩🇪 德国, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港, server: azure-f4s-hk.transfer-xray.tk, port: 33314, type: vmess, uuid: 8ed48144-1f51-11ec-9c65-c772c4cbe9da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /V6EbU1hL/, ws-headers: {Host: azure-f4s-hk.transfer-xray.tk}}
-  - {name: 🇨🇦 加拿大, server: 198.57.27.238, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 2, server: 134.195.196.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 3, server: 134.195.198.195, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国, server: 172.99.190.57, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 2, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 3, server: 172.99.190.139, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 4, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇯🇵 日本 2, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇩🇪 德国 2, server: 217.182.198.219, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇩🇪 德国 3, server: 91.194.84.53, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 挪威, server: 46.29.218.6, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 5, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 日本 3, server: 52.80.255.101, port: 39822, type: vmess, uuid: 7d74bdf2-a90d-4ed8-8529-f1bbf4257734, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.255.101}}
-  - {name: 🇨🇳 台湾, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-tw2, ws-headers: {Host: baidu.com}}
-  - {name: 🇸🇬 新加坡, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsxjp1, ws-headers: {Host: baidu.com}}
-  - {name: 🇸🇬 新加坡 2, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsxjp5, ws-headers: {Host: baidu.com}}
-  - {name: 🇭🇰 香港 2, server: 52.184.37.177, port: 80, type: vmess, uuid: 75ff21ae-dcb4-4571-9a11-ba0da6d97210, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.184.37.177}}
-  - {name: 🇯🇵 日本 4, server: 13.75.51.218, port: 50531, type: vmess, uuid: 46aa4dcf-6e3b-480f-8baa-f0024f7231b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 3, server: azure-f4s-hk.transfer-xray.tk, port: 13511, type: vmess, uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: wx.tenpay.com}}
-  - {name: 🇨🇦 加拿大 4, server: v9.ssrsub.com, port: 158, type: vmess, uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}}
-  - {name: 🇨🇦 加拿大 5, server: v10.ssrsub.com, port: 158, type: vmess, uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v10.ssrsub.com}}
-  - {name: 🇫🇷 法国, server: 5.39.70.138, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 英国, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 6, server: 192.169.112.173, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 7, server: 192.169.112.173, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 8, server: 192.169.112.174, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 9, server: 192.169.112.174, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 日本 5, server: 5.180.76.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 10, server: 192.169.112.177, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 日本 6, server: 52.80.255.101, port: 39823, type: vmess, uuid: 061ecc60-40a9-4487-a120-bf18d646bad1, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.255.101}}
-  - {name: 🇭🇰 香港 4, server: 118.107.244.114, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 11, server: 192.169.112.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 12, server: 192.169.112.182, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 13, server: 192.169.112.182, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇯🇵 日本 7, server: 5.180.76.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇯🇵 日本 8, server: 52.80.255.101, port: 39825, type: vmess, uuid: 792da84d-ae7d-45d2-9187-d047ca27cdb3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.255.101}}
-  - {name: 🇭🇰 Az香港|1x, server: azhk.qqair.online, port: 5008, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.qqair.online}}
-  - {name: 🇺🇸 美国圣何塞|流媒体解锁|1x, server: us.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us.qqair.online}}
-  - {name: 🇺🇸 上海|美国圣何塞|流媒体解锁|1x, server: sh-us.qqair.online, port: 25007, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sh-us.qqair.online}}
-  - {name: 🇰🇷 韩国春州|流媒体解锁|1x, server: chunzhou.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: chunzhou.qqair.online}}
-  - {name: 🇰🇷 韩国春州1G|流媒体解锁|1x, server: cz1g.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cz1g.qqair.online}}
-  - {name: 🇨🇳 台湾|流媒体解锁|1x, server: tw.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: tw.qqair.online}}
-  - {name: 🇭🇰 Az香港|台湾|流媒体解锁|1x, server: azhk-tw.qqair.online, port: 35088, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk-tw.qqair.online}}
-  - {name: 🇰🇷 北京|韩国|1x, server: bj-kr.qqair.online, port: 45036, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: bj-kr.qqair.online}}
-  - {name: 🇯🇵 北京|日本|1x, server: bj-jp.qqair.online, port: 45023, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: bj-jp.qqair.online}}
+  - {name: 🇺🇸 阿伟科技-油管-美国, server: zk.freev2r.xyz, port: 58443, type: vmess, uuid: 22f810c5-9139-4327-a0ed-2a319b05c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 阿伟科技-油管-香港, server: uc.freev2r.xyz, port: 27443, type: ss, cipher: chacha20-ietf-poly1305, password: 22f810c5-9139-4327-a0ed-2a319b05c8e7}
+  - {name: 🇨🇦 阿伟科技-油管-加拿大, server: 134.195.196.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 阿伟科技-油管-美国 2, server: 172.99.190.57, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 阿伟科技-油管-美国 3, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 阿伟科技-油管-美国 4, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 阿伟科技-油管-日本, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇸🇬 阿伟科技-油管-新加坡, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsxjp1, ws-headers: {Host: baidu.com}}
+  - {name: 🇭🇰 阿伟科技-油管-香港 2, server: 52.184.37.177, port: 80, type: vmess, uuid: 75ff21ae-dcb4-4571-9a11-ba0da6d97210, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.184.37.177}}
+  - {name: 🇬🇧 阿伟科技-油管-英国, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇯🇵 阿伟科技-油管-日本 2, server: 5.180.76.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇯🇵 阿伟科技-油管-日本 3, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsrb5, ws-headers: {Host: baidu.com}}
+  - {name: 🇬🇧 阿伟科技-油管-英国 2, server: 172.99.190.57, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 阿伟科技-油管-加拿大 2, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 阿伟科技-油管-香港 3, server: hgchgc1.yyyywe.top, port: 10120, type: vmess, uuid: 8243c239-1548-479a-ba8a-5874819f68bb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}}
+  - {name: 🇺🇸 阿伟科技-油管-美国 5, server: zzr.zzzr.ltd, port: 2053, type: vmess, uuid: a737264c-2bea-11ec-83c0-414353016dec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /8qgBdhe3/, ws-headers: {Host: zzr.zzzr.ltd}}
+  - {name: 🇩🇪 阿伟科技-油管-德国, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 阿伟科技-油管-欧洲, server: 51.77.52.206, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 阿伟科技-油管-欧洲 2, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 阿伟科技-油管-英国 3, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 阿伟科技-油管-德国 2, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇩🇪 阿伟科技-油管-德国 3, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇪🇺 阿伟科技-油管-欧洲 3, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 阿伟科技-油管-美国 6, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 阿伟科技-油管-加拿大 3, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 阿伟科技-油管-加拿大 4, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 阿伟科技-油管-新加坡 2, server: jx.freev2r.xyz, port: 58443, type: vmess, uuid: 22f810c5-9139-4327-a0ed-2a319b05c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 Az香港|1x, server: azhk.qqair.online, port: 5008, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: azhk.qqair.online}}
+  - {name: 🇺🇸 美国圣何塞|流媒体解锁|1x, server: us.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.qqair.online}}
+  - {name: 🇺🇸 上海|美国圣何塞|流媒体解锁|1x, server: sh-us.qqair.online, port: 25007, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sh-us.qqair.online}}
+  - {name: 🇰🇷 韩国春州|流媒体解锁|1x, server: chunzhou.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chunzhou.qqair.online}}
+  - {name: 🇰🇷 韩国春州1G|流媒体解锁|1x, server: cz1g.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cz1g.qqair.online}}
+  - {name: 🇨🇳 台湾|流媒体解锁|1x, server: tw.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: tw.qqair.online}}
+  - {name: 🇭🇰 Az香港|台湾|流媒体解锁|1x, server: azhk-tw.qqair.online, port: 35088, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: azhk-tw.qqair.online}}
+  - {name: 🇰🇷 北京|韩国|1x, server: bj-kr.qqair.online, port: 45036, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: bj-kr.qqair.online}}
+  - {name: 🇯🇵 北京|日本|1x, server: bj-jp.qqair.online, port: 45023, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: bj-jp.qqair.online}}
+  - {name: 🇭🇰 AZ香港|墨西哥|1x, server: azhk-mxg.qqair.online, port: 50081, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: azhk-mxg.qqair.online}}
