@@ -1,31 +1,37 @@
 proxies:
-  - {name: 🇺🇸 美国, server: zk.freev2r.xyz, port: 58443, type: vmess, uuid: 22f810c5-9139-4327-a0ed-2a319b05c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇭🇰 香港, server: uc.freev2r.xyz, port: 27443, type: ss, cipher: chacha20-ietf-poly1305, password: 22f810c5-9139-4327-a0ed-2a319b05c8e7}
-  - {name: 🇨🇦 加拿大, server: 134.195.196.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 2, server: 172.99.190.57, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 3, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 4, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇯🇵 日本, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇸🇬 新加坡, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsxjp1, ws-headers: {Host: baidu.com}}
-  - {name: 🇭🇰 香港 2, server: 52.184.37.177, port: 80, type: vmess, uuid: 75ff21ae-dcb4-4571-9a11-ba0da6d97210, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.184.37.177}}
-  - {name: 🇬🇧 英国, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 日本 2, server: 5.180.76.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇯🇵 日本 3, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsrb5, ws-headers: {Host: baidu.com}}
-  - {name: 🇬🇧 英国 2, server: 172.99.190.57, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 2, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇭🇰 香港 3, server: hgchgc1.yyyywe.top, port: 10120, type: vmess, uuid: 8243c239-1548-479a-ba8a-5874819f68bb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}}
-  - {name: 🇺🇸 美国 5, server: zzr.zzzr.ltd, port: 2053, type: vmess, uuid: a737264c-2bea-11ec-83c0-414353016dec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /8qgBdhe3/, ws-headers: {Host: zzr.zzzr.ltd}}
-  - {name: 🇩🇪 德国, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇪🇺 欧洲, server: 51.77.52.206, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇪🇺 欧洲 2, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 英国 3, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 德国 2, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇩🇪 德国 3, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇪🇺 欧洲 3, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 6, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 3, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 4, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 新加坡 2, server: jx.freev2r.xyz, port: 58443, type: vmess, uuid: 22f810c5-9139-4327-a0ed-2a319b05c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇯🇵 日本5, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsrb1, ws-headers: {Host: baidu.com}}
+  - {name: 🇨🇳 台湾3, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-tw3, ws-headers: {Host: baidu.com}}
+  - {name: 🇨🇦 加拿大4, server: 134.195.196.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国4, server: 172.99.190.57, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国4 2, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国4 3, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 日本4, server: 5.180.76.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 英国4, server: 172.99.190.57, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大4 2, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 香港3, server: hgchgc1.yyyywe.top, port: 10120, type: vmess, uuid: 8243c239-1548-479a-ba8a-5874819f68bb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}}
+  - {name: 🇺🇸 美国4 4, server: zzr.zzzr.ltd, port: 2053, type: vmess, uuid: a737264c-2bea-11ec-83c0-414353016dec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /8qgBdhe3/, ws-headers: {Host: zzr.zzzr.ltd}}
+  - {name: 🇩🇪 德国4, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 欧洲3, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国3, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 德国3, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇪🇺 欧洲3 2, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国4 5, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大4 3, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大4 4, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇰🇷 韩国5, server: 52.79.206.1, port: 54250, type: vmess, uuid: 8243c239-1548-479a-ba8a-5874819f68bb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.79.206.1}}
+  - {name: 卢森堡5, server: 107.189.13.173, port: 9999, type: vmess, uuid: 8243c239-1548-479a-ba8a-5874819f68bb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.13.173}}
+  - {name: 🇭🇰 香港5, server: ns2.freev2r.xyz, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: d818b45c-70fc-4842-b5fe-d8233375f598}
+  - {name: 🇭🇰 香港5 2, server: zf.freev2r.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: d818b45c-70fc-4842-b5fe-d8233375f598}
+  - {name: 🇭🇰 香港6, server: zf.freev2r.xyz, port: 33443, type: vmess, uuid: d818b45c-70fc-4842-b5fe-d8233375f598, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇬🇧 英国3 2, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国3 3, server: 193.118.60.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 挪威3, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇦🇹  奥地利2, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 阿塞拜疆2, server: 62.212.239.53, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 缅甸2, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 英国4 2, server: 193.118.60.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇳 台湾3 2, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-tw1, ws-headers: {Host: baidu.com}}
+  - {name: 🇯🇵 日本5 2, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tnt-awsrb2, ws-headers: {Host: baidu.com}}
   - {name: 🇭🇰 Az香港|1x, server: azhk.qqair.online, port: 5008, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: azhk.qqair.online}}
   - {name: 🇺🇸 美国圣何塞|流媒体解锁|1x, server: us.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.qqair.online}}
   - {name: 🇺🇸 上海|美国圣何塞|流媒体解锁|1x, server: sh-us.qqair.online, port: 25007, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sh-us.qqair.online}}
