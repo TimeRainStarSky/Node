@@ -31,37 +31,37 @@ proxies:
   - {name: 🇭🇰 香港HK 14, server: v1-aws-hk-14.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-14.niaoyun.online}}
   - {name: 🇭🇰 香港HK 15, server: v1-aws-hk-15.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-15.niaoyun.online}}
 
-  - {name: 🇺🇸 阿伟科技-油管-美国3, server: nv3.freev2r.xyz, port: 80, type: vmess, uuid: 38357dc5-a416-40c4-be5c-e73dfe00d1ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇯🇵 阿伟科技-油管-日本, server: nv2.freev2r.xyz, port: 8443, type: vmess, uuid: 38357dc5-a416-40c4-be5c-e73dfe00d1ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇯🇵 阿伟科技-油管-日本 2, server: aws-bj.w72.xyz, port: 10306, type: vmess, uuid: 684c4434-6004-48c7-b47d-970f66f0bab8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
-  - {name: 🇺🇸 阿伟科技-油管-美国, server: aws-bj.w72.xyz, port: 10320, type: vmess, uuid: 684c4434-6004-48c7-b47d-970f66f0bab8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
-  - {name: 🇰🇷 阿伟科技-油管-韩国, server: 52.79.206.1, port: 54250, type: vmess, uuid: 27dd2be4-03e2-4a4d-ac3a-268d3a071871, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.79.206.1}}
-  - {name: 阿伟科技-油管-卢森堡, server: 107.189.13.173, port: 9999, type: vmess, uuid: 27dd2be4-03e2-4a4d-ac3a-268d3a071871, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.13.173}}
-  - {name: 🇭🇰 阿伟科技-油管-香港, server: aws-bj.w72.xyz, port: 10302, type: vmess, uuid: 1bb8628c-a402-45ad-bbaf-ade5047f655a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
-  - {name: 🇯🇵 阿伟科技-油管-日本 3, server: aws-bj.w72.xyz, port: 10310, type: vmess, uuid: 1bb8628c-a402-45ad-bbaf-ade5047f655a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
-  - {name: 🇬🇧 阿伟科技-油管-英国, server: aws-bj.w72.xyz, port: 10313, type: vmess, uuid: 1bb8628c-a402-45ad-bbaf-ade5047f655a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
-  - {name: 🇺🇸 阿伟科技-油管-美国3 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 阿伟科技-油管-美国3 3, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 阿伟科技-油管-卢森堡5, server: 107.189.13.173, port: 9999, type: vmess, uuid: 27dd2be4-03e2-4a4d-ac3a-268d3a071871, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.13.173}}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大7, server: zf.freev2r.xyz, port: 57443, type: vmess, uuid: 38357dc5-a416-40c4-be5c-e73dfe00d1ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大4, server: 134.195.196.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 阿伟科技-油管-美国4, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇩🇪 阿伟科技-油管-德国4, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 阿伟科技-油管-英国3, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 阿伟科技-油管-德国3, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 阿伟科技-油管-美国4 2, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大4 2, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大4 3, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 阿伟科技-油管-英国3 2, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 阿伟科技-油管-英国3 3, server: 193.118.60.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇦🇹 阿伟科技-油管- 奥地利2, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 阿伟科技-油管-英国4, server: 193.118.60.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 阿伟科技-油管-美国3 4, server: 154.17.2.141, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZAlS0Kxe8u5OIN7nxE8Tly3paXCDOYRZqzSycDSw6aCjDF2egR4BaAC3F9Y33p}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大, server: 134.195.196.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 阿伟科技-油管-英国 2, server: 172.99.190.230, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 阿伟科技-油管-日本 4, server: ns6.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 38357dc5-a416-40c4-be5c-e73dfe00d1ef}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大 2, server: 134.195.196.163, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大 3, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国3, server: nv3.freev2r.xyz, port: 80, type: vmess, uuid: 38357dc5-a416-40c4-be5c-e73dfe00d1ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇯🇵 日本, server: nv2.freev2r.xyz, port: 8443, type: vmess, uuid: 38357dc5-a416-40c4-be5c-e73dfe00d1ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇯🇵 日本 2, server: aws-bj.w72.xyz, port: 10306, type: vmess, uuid: 684c4434-6004-48c7-b47d-970f66f0bab8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国, server: aws-bj.w72.xyz, port: 10320, type: vmess, uuid: 684c4434-6004-48c7-b47d-970f66f0bab8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇰🇷 韩国, server: 52.79.206.1, port: 54250, type: vmess, uuid: 27dd2be4-03e2-4a4d-ac3a-268d3a071871, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.79.206.1}}
+  - {name: 卢森堡, server: 107.189.13.173, port: 9999, type: vmess, uuid: 27dd2be4-03e2-4a4d-ac3a-268d3a071871, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.13.173}}
+  - {name: 🇭🇰 香港, server: aws-bj.w72.xyz, port: 10302, type: vmess, uuid: 1bb8628c-a402-45ad-bbaf-ade5047f655a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇯🇵 日本 3, server: aws-bj.w72.xyz, port: 10310, type: vmess, uuid: 1bb8628c-a402-45ad-bbaf-ade5047f655a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇬🇧 英国, server: aws-bj.w72.xyz, port: 10313, type: vmess, uuid: 1bb8628c-a402-45ad-bbaf-ade5047f655a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /run, ws-headers: {Host: www.apple.com}}
+  - {name: 🇺🇸 美国3 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国3 3, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 卢森堡5, server: 107.189.13.173, port: 9999, type: vmess, uuid: 27dd2be4-03e2-4a4d-ac3a-268d3a071871, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.13.173}}
+  - {name: 🇨🇦 加拿大7, server: zf.freev2r.xyz, port: 57443, type: vmess, uuid: 38357dc5-a416-40c4-be5c-e73dfe00d1ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇨🇦 加拿大4, server: 134.195.196.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国4, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇩🇪 德国4, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国3, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 德国3, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国4 2, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大4 2, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大4 3, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国3 2, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国3 3, server: 193.118.60.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇦🇹  奥地利2, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇬🇧 英国4, server: 193.118.60.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国3 4, server: 154.17.2.141, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZAlS0Kxe8u5OIN7nxE8Tly3paXCDOYRZqzSycDSw6aCjDF2egR4BaAC3F9Y33p}
+  - {name: 🇨🇦 加拿大, server: 134.195.196.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国 2, server: 172.99.190.230, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇯🇵 日本 4, server: ns6.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 38357dc5-a416-40c4-be5c-e73dfe00d1ef}
+  - {name: 🇨🇦 加拿大 2, server: 134.195.196.163, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 3, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 
   - {name: 🇺🇲 美国, server: 99uu.wtf, port: 443, type: vmess, uuid: 6495f4fd-c88c-4521-bd2e-d79c8097ed86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /6495f4fd-c88c-4521-bd2e-d79c8097ed86-vmess, ws-headers: {Host: little-3135.yhdnwm.workers.dev}}
   - {name: 🇺🇲 美国 2, server: 66.115.177.143, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
