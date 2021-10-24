@@ -1,11 +1,4 @@
 proxies:
-  - {name: 🇭🇰 Az香港|1x, server: azhk.qqair.online, port: 5008, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: azhk.qqair.online}}
-  - {name: 🇯🇵 北京|东京1|流媒体解锁|1x, server: bj-jp.qqair.online, port: 45009, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: bj-jp.qqair.online}}
-  - {name: 🇺🇸 美国圣何塞|流媒体解锁|1x, server: us.qqair.online, port: 80, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.qqair.online}}
-  - {name: 🇺🇸 上海|美国圣何塞|流媒体解锁|1x, server: sh-us.qqair.online, port: 25007, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sh-us.qqair.online}}
-  - {name: 🇯🇵 上海|东京1|流媒体解锁|1x, server: sh-jp1.qqair.online, port: 25043, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sh-jp1.qqair.online}}
-  - {name: 🇯🇵 上海|东京2|流媒体解锁1x, server: sh-jp2.qqair.online, port: 25047, type: vmess, uuid: a44306c8-f5ab-4cf9-baa0-b0f321bbfae7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sh-jp2.qqair.online}}
-
   - {name: 🇸🇬 新加坡SG 08, server: v1-asw-sg-08.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-08.niaoyun.online}}
   - {name: 🇸🇬 新加坡SG 09, server: v1-asw-sg-09.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-09.niaoyun.online}}
   - {name: 🇸🇬 新加坡SG 10, server: v1-asw-sg-10.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-10.niaoyun.online}}
