@@ -1,5 +1,5 @@
 proxies:
-  - {name: 🇸🇬 新加坡SG 01, server: v1-do-sg-01.niaoyun.online, port: 777, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-sg-01.niaoyun.online}}
+  - {name: 🇸🇬 新加坡SG 01, server: v1-asw-sg-01.niaoyun.online, port: 80, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-sg-01.niaoyun.online}}
   - {name: 🇸🇬 新加坡SG 02, server: v1-asw-sg-02.niaoyun.online, port: 80, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-02.niaoyun.online}}
   - {name: 🇸🇬 新加坡SG 03, server: v1-asw-sg-03.niaoyun.online, port: 80, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-03.niaoyun.online}}
   - {name: 🇸🇬 新加坡SG 04, server: v1-asw-sg-04.niaoyun.online, port: 80, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-04.niaoyun.online}}
@@ -8,171 +8,131 @@ proxies:
   - {name: 🇸🇬 新加坡SG 07, server: v1-asw-sg-07.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-07.niaoyun.online}}
   - {name: 🇸🇬 新加坡SG 08, server: v1-asw-sg-08.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-08.niaoyun.online}}
   - {name: 🇸🇬 新加坡SG 09, server: v1-asw-sg-09.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-09.niaoyun.online}}
+  - {name: 🇸🇬 新加坡SG 10, server: v1-asw-sg-10.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-10.niaoyun.online}}
+  - {name: 🇸🇬 新加坡SG 11, server: v1-asw-sg-11.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-11.niaoyun.online}}
+  - {name: 🇸🇬 新加坡SG 12, server: v1-asw-sg-12.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-12.niaoyun.online}}
+  - {name: 🇸🇬 新加坡SG 13, server: v1-asw-sg-13.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-13.niaoyun.online}}
+  - {name: 🇸🇬 新加坡SG 14, server: v1-asw-sg-14.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-14.niaoyun.online}}
+  - {name: 🇸🇬 新加坡SG 15, server: v1-asw-sg-15.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-15.niaoyun.online}}
   - {name: 🇺🇸 美国UA 01, server: v1-do-ua-01.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-01.niaoyun.online}}
   - {name: 🇺🇸 美国UA 02, server: v1-do-ua-02.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-02.niaoyun.online}}
   - {name: 🇺🇸 美国UA 03, server: v1-do-ua-03.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-03.niaoyun.online}}
   - {name: 🇺🇸 美国UA 05, server: v1-do-ua-05.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-05.niaoyun.online}}
-  - {name: 🇭🇰 香港HK 01, server: v1-aws-hk-01.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-01.niaoyun.online}}
-  - {name: 🇭🇰 香港HK 02, server: v1-aws-hk-02.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-02.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 01, server: v1-aws-hk-01.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-01.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 02, server: v1-aws-hk-02.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-02.niaoyun.online}}
   - {name: 🇭🇰 香港HK 03, server: v1-aws-hk-03.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-03.niaoyun.online}}
-  - {name: 🇭🇰 香港HK 04, server: v1-aws-hk-04.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-04.niaoyun.online}}
-  - {name: 🇭🇰 香港HK 05, server: v1-aws-hk-05.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-05.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 04, server: v1-aws-hk-04.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-04.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 05, server: v1-aws-hk-05.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-05.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 06, server: v1-aws-hk-06.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-06.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 07, server: v1-aws-hk-07.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-07.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 08, server: v1-aws-hk-08.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-08.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 09, server: v1-aws-hk-09.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-09.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 10, server: v1-aws-hk-10.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-10.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 11, server: v1-aws-hk-11.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-11.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 12, server: v1-aws-hk-12.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-12.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 13, server: v1-aws-hk-13.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-13.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 14, server: v1-aws-hk-14.niaoyun.online, port: 666, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-14.niaoyun.online}}
+  - {name: 🇭🇰 香港HK 15, server: v1-aws-hk-15.niaoyun.online, port: 555, type: vmess, uuid: 2278d94c-0270-3f4d-b590-b9a7b4211a28, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-15.niaoyun.online}}
 
-  - {name: 🇺🇸 美国1, server: 79.110.54.133, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 塞舌尔, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
-  - {name: 🇸🇬 新加坡4, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 🇺🇸 美国4, server: 129.146.243.243, port: 1420, type: vmess, uuid: 2ca1dcfe-3ca3-4842-88dc-ac59c3d282c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 129.146.243.243}}
-  - {name: 罗马1, server: 79.110.54.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 意大利1, server: 82.102.26.93, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 美国8, server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}}
-  - {name: 🇭🇰 香港1, server: 1.transit.t.qjnodeip.xyz, port: 54952, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 5, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Hkk3Z, ws-headers: {Host: hk03.iuhbhgg.xyz}}
-  - {name: 🇺🇸 美国10, server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
-  - {name: 🇺🇸 美国5, server: 1.transit.t.qjnodeip.xyz, port: 60649, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /HGzsmqibHG02Z, ws-headers: {Host: dddwda.xyz}}
-  - {name: 🇺🇸 美国5 2, server: a.xxyu.xyz, port: 443, type: vmess, uuid: 33a89ab7-cdf4-4eb9-fd1b-aaf6fb3079cb, alterId: 63, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: a.xxyu.xyz}}
-  - {name: 🇩🇪 德国6, server: 172.67.71.154, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 2, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
-  - {name: 🇺🇸 美国4 2, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
-  - {name: 🇸🇬 新加坡, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 🇺🇸 美国7, server: 1102us.fans8.xyz, port: 80, type: vmess, uuid: b2e30b11-6464-3c5c-8328-3dd508ba3590, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇺🇸 美国4 3, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国7 2, server: 167.88.61.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 1, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 7d743060-33db-467e-b514-00813a3f0d0f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 1 2, server: 156.146.62.37, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 1 3, server: 156.146.62.37, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 1 4, server: 156.146.62.37, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 1 5, server: 156.146.62.37, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 美国5 3, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国3, server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国1 2, server: 79.110.54.133, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 🇺🇸 美国6, server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 🇺🇸 美国6 2, server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: 🇺🇸 美国7 3, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇷🇺 俄罗斯5, server: e005.zhuan666.top, port: 11105, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: 🇮🇳 印度5, server: dd003.zhuan666.top, port: 11603, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: 🇯🇵 日本5, server: rr010.zhuan666.top, port: 11210, type: ss, cipher: chacha20-ietf-poly1305, password: de7c15cd-8114-4570-83aa-58bd152225b2}
+  - {name: 🇭🇰 香港3, server: v1-aws-hk-14.niaoyun.online, port: 666, type: vmess, uuid: c62eb338-070e-352f-a309-1b2ad6df7627, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-14.niaoyun.online}}
+  - {name: 🇷🇺 俄罗斯5 2, server: 789.out04.nodeserver.top, port: 39069, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 英国5, server: 185.134.22.252, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: 🇭🇰 香港4, server: v1-aws-hk-14.niaoyun.online, port: 666, type: vmess, uuid: f548911a-d732-3e05-b552-899f3f9a3487, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-aws-hk-14.niaoyun.online}}
+  - {name: 🇺🇸 美国3, server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 62ef0128-3f98-11ec-a732-00163cf0ed57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}}
+  - {name: 🇺🇸 美国2, server: www.garmin.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国3 2, server: 1.transit.t.qjnodeip.xyz, port: 40249, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /JS6, ws-headers: {Host: usa06.sdhexzy.xyz}}
+  - {name: 🇺🇸 美国4, server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
+  - {name: 🇸🇬 新加坡3, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 🇺🇸 美国5, server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 🇭🇰 香港3 2, server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 🇯🇵 日本6 4, server: 00.cn1.rocketdns.xyz, port: 65006, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 🇮🇳 印度3, server: 00.cn2.rocketdns.xyz, port: 65007, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 3, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: 🇨🇳 台湾香港2, server: 1030tw.fans8.xyz, port: 80, type: vmess, uuid: 89a5e033-f2d6-3567-95f6-86bedb596cc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030tw.fans8.xyz}}
+  - {name: 🇺🇸 美国5 2, server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 🇺🇸 美国5 3, server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇺🇸 美国4 2, server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇺🇸 美国4 3, server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇺🇸 美国4 4, server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇺🇸 美国4 5, server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 🇺🇸 美国4 6, server: 138.199.42.170, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 美国3 2, server: 520yyds.zhqt.xyz, port: 50091, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us1.zhqt.xyz}}
-  - {name: 塞舌尔2, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
-  - {name: 🇸🇬 新加坡4 2, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 🇸🇬 新加坡4 3, server: 167.172.65.93, port: 21888, type: vmess, uuid: 2543c5a0-679f-4623-b473-a9a2c5ddb827, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 167.172.65.93}}
-  - {name: 🇺🇸 美国10 2, server: 167.88.61.15, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国6 3, server: 38.68.135.26, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国6 4, server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国2, server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇺🇸 美国4 7, server: 138.199.42.134, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇭 瑞士, server: 156.146.62.37, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇨🇭 瑞士2, server: 156.146.62.37, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇭 瑞士3, server: 156.146.62.37, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国3 3, server: 185.124.240.146, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇺🇸 美国3 4, server: 185.124.240.146, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国3 5, server: 185.124.240.146, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 🇺🇸 美国3 6, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国3 7, server: 167.88.61.15, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 1, server: 185.124.240.146, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 2, server: 156.146.62.37, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 3, server: 156.146.62.37, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 4, server: 156.146.62.37, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 美国4 5, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国3 3, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 美国2 2, server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇩🇪 德国1, server: 193.29.107.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇺 俄罗斯5 3, server: 789.out03.nodeserver.top, port: 39070, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 移动测试可用10M, server: 45.130.137.14, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 移动测试可用10M 2, server: 144.48.38.183, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 移动测试可用10M 3, server: 45.125.247.197, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 移动测试可用10M 4, server: 144.48.38.19, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 移动测试可用10M 5, server: 144.48.38.183, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 移动测试可用10M 6, server: 45.125.247.91, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
 
-  - {name: 罗马, server: 152.89.160.61, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: 欧洲, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: 🇨🇦 加拿大, server: 134.195.196.202, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 美国, server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国2, server: 167.88.63.82, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲2, server: v3.ssrsub.com, port: 159, type: vmess, uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: 欧洲3, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国3, server: t1.ssrsub.com, port: 844, type: trojan, password: 52f31fcb-f948-4f71-bca8-795fdcf7b754, sni: t1.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇲 美国4, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇷🇺 俄罗斯, server: v3.ssrsub.com, port: 159, type: vmess, uuid: f5487ee3-aef5-436f-adf9-673b1afe2ff7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: 🇨🇦 加拿大2, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲4, server: 154.84.1.55, port: 443, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.04887294.xyz}, udp: true}
-  - {name: 🇺🇲 美国5, server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国6, server: s.22xr.cn, port: 36699, type: vmess, uuid: 55b6abf4-fbdc-488b-fd00-c665521356ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲5, server: s.22xr.cn, port: 36699, type: vmess, uuid: 55b6abf4-fbdc-488b-fd00-c665521356ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲6, server: 62.212.239.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: 🇺🇲 美国7, server: v2.ssrsub.com, port: 159, type: vmess, uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: 欧洲7, server: 82.102.26.93, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: 欧洲8, server: 37.19.211.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
-  - {name: 欧洲9, server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.237.214}, udp: true}
-  - {name: 🇨🇦 加拿大3, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲10, server: 82.102.26.93, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
-  - {name: 🇺🇲 美国8, server: 167.88.63.119, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国9, server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国10, server: t2.ssrsub.com, port: 844, type: trojan, password: f5487ee3-aef5-436f-adf9-673b1afe2ff7, sni: t2.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 欧洲11, server: 46.182.107.163, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.90859292.xyz}, udp: true}
-  - {name: 🇨🇦 加拿大4, server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲12, server: 61.74.155.68, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
-  - {name: 🇰🇷 韩国, server: 14.36.250.126, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
-  - {name: 🇷🇺 俄罗斯2, server: t5.ssrsub.com, port: 844, type: trojan, password: 52f31fcb-f948-4f71-bca8-795fdcf7b754, sni: t5.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇷🇺 俄罗斯3, server: t5.ssrsub.com, port: 844, type: trojan, password: f5487ee3-aef5-436f-adf9-673b1afe2ff7, sni: t5.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇲 美国11, server: t2.ssrsub.com, port: 844, type: trojan, password: 52f31fcb-f948-4f71-bca8-795fdcf7b754, sni: t2.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇲 美国12, server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国13, server: 150.230.252.120, port: 443, type: vmess, uuid: 33a89ab7-cdf4-4eb9-fd1b-aaf6fb3079cb, alterId: 63, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 150.230.252.120}, udp: true}
-  - {name: 🇷🇺 俄罗斯4, server: t3.ssrsub.com, port: 844, type: trojan, password: 52f31fcb-f948-4f71-bca8-795fdcf7b754, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 欧洲13, server: 37.19.211.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: 欧洲14, server: 45.248.79.69, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
-  - {name: 欧洲15, server: 62.212.239.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: 欧洲16, server: 62.212.239.51, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: 欧洲17, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: 欧洲18, server: 45.144.179.215, port: 200, type: vmess, uuid: 522a7b98-1c6a-11ec-9d56-6e0116768709, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇲 美国14, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇫🇷 法国, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国15, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
-  - {name: 欧洲19, server: 201.fbplay.net, port: 10026, type: ss, cipher: aes-256-gcm, password: 4c59b800, udp: true}
-  - {name: 🇷🇺 俄罗斯5, server: v5.ssrsub.com, port: 159, type: vmess, uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 🇺🇲 美国16, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇨🇦 加拿大5, server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲20, server: 62.212.239.51, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
-  - {name: 🇺🇲 美国17, server: 156.146.33.74, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY, udp: true}
-  - {name: 🇺🇲 美国18, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: 🇺🇲 美国19, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国20, server: 156.146.33.74, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: 欧洲21, server: 193.29.107.123, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: 罗马2, server: 193.29.107.125, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: 欧洲22, server: inapus.mooncloud.bike, port: 10020, type: vmess, uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}, udp: true}
-  - {name: 🇺🇲 美国21, server: 167.88.63.11, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲23, server: usml.52jjy.top, port: 88, type: vmess, uuid: 8c7c1292-766c-417d-9bf5-7e12a68ef158, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyunml, ws-headers: {Host: usml.52jjy.top}, udp: true}
-  - {name: 欧洲24, server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 🇷🇺 俄罗斯6, server: t3.ssrsub.com, port: 844, type: trojan, password: f5487ee3-aef5-436f-adf9-673b1afe2ff7, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 欧洲25, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 罗马3, server: 193.29.107.125, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
-  - {name: 🇺🇲 美国22, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大6, server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国23, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国24, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 罗马4, server: 89.45.7.51, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
-  - {name: 🇺🇲 美国25, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇨🇦 加拿大7, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大8, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国26, server: 167.88.63.119, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大9, server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国27, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲26, server: v1.ssrsub.com, port: 159, type: vmess, uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 🇺🇲 美国28, server: 38.107.226.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲27, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大10, server: 134.195.196.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲28, server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: 🇺🇲 美国29, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大11, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国30, server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 加拿大12, server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国31, server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大13, server: 134.195.196.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 加拿大14, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 加拿大15, server: 134.195.196.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 美国32, server: t1.ssrsub.com, port: 844, type: trojan, password: f5487ee3-aef5-436f-adf9-673b1afe2ff7, sni: t1.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇲 美国33, server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国34, server: 45.87.214.253, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR, udp: true}
-  - {name: 🇺🇲 美国35, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国36, server: v1.ssrsub.com, port: 159, type: vmess, uuid: f5487ee3-aef5-436f-adf9-673b1afe2ff7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 🇺🇲 美国37, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国38, server: v2.ssrsub.com, port: 159, type: vmess, uuid: f5487ee3-aef5-436f-adf9-673b1afe2ff7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: 🇺🇲 美国39, server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国40, server: 45.87.214.253, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: 罗马5, server: 152.89.160.61, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
-  - {name: 🇺🇲 美国41, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲29, server: 37.19.211.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: 🇨🇦 加拿大16, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 罗马6, server: 152.89.160.61, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: 🇨🇦 加拿大17, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇲 美国, server: 156.146.62.37, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4, udp: true}
+  - {name: 🇺🇲 美国2, server: 156.146.62.37, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: 欧洲, server: t7.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t7.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国3, server: 45.89.173.205, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: 🇺🇲 美国4, server: 37.19.211.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: 🇺🇲 美国5, server: 45.89.173.205, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: 欧洲2, server: 37.19.211.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: 欧洲3, server: 185.124.240.152, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: 🇷🇺 俄罗斯, server: t5.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t5.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国6, server: 107.173.157.168, port: 443, type: vmess, uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422, alterId: 6, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /b06fde1/, ws-headers: {Host: www.shunxin.ml}, udp: true}
+  - {name: 🇺🇲 美国7, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲4, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲5, server: zoomlogin.hostmeetingnow.tk, port: 8880, type: vmess, uuid: 8cf979a4-7d96-4915-abf9-167f295b3fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /45ufd6, ws-headers: {Host: zoomlogin.hostmeetingnow.tk}, udp: true}
+  - {name: 🇺🇲 美国8, server: 198.8.92.84, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2, udp: true}
+  - {name: 🇨🇦 加拿大, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国9, server: 198.8.92.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: 🇺🇲 美国10, server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.237.214}, udp: true}
+  - {name: 欧洲6, server: 120.232.174.72, port: 60649, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /HGzsmqibHG02Z, ws-headers: {Host: dddwda.xyz}, udp: true}
+  - {name: 欧洲7, server: 152.89.160.61, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: 欧洲8, server: 152.89.160.61, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: 🇷🇺 俄罗斯2, server: v4.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
+  - {name: 欧洲9, server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 5e2d9726-3f98-11ec-a732-00163cf0ed57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}, udp: true}
+  - {name: 欧洲10, server: v1.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 欧洲11, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: e2e7ce07-5711-4058-93ab-3ff0f8fd9f0d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /6gSuVkLX, ws-headers: {Host: sw.gfwglass.tk}, udp: true}
+  - {name: 🇷🇺 俄罗斯3, server: t5.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t5.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲12, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲13, server: 132.226.172.134, port: 51476, type: vmess, uuid: 7a44d386-e7eb-41d4-92ce-ffbfb32b7957, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲14, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲15, server: 132.226.172.134, port: 51476, type: vmess, uuid: 7a44d386-e7eb-41d4-92ce-ffbfb32b7957, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲16, server: tk.shcn2.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: zxjp-b.tkong.cc}, udp: true}
+  - {name: 欧洲17, server: 1.transit.t.qjnodeip.xyz, port: 60649, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /HGzsmqibHG02Z, ws-headers: {Host: dddwda.xyz}, udp: true}
+  - {name: 🇭🇰 香港, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇰🇷 韩国, server: 61.74.222.77, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
+  - {name: 🇫🇷 法国, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲18, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 🇭🇰 香港2, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲30, server: 212.102.54.160, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: 🇷🇺 俄罗斯4, server: s.22xr.cn, port: 36699, type: vmess, uuid: 55b6abf4-fbdc-488b-fd00-c665521356ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国11, server: 159.223.75.14, port: 41462, type: vmess, uuid: 7556ad52-2253-4443-a483-623afcf4539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.14}, udp: true}
+  - {name: 🇮🇹 意大利, server: 212.102.54.160, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 欧洲19, server: 212.102.54.160, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: 欧洲20, server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 62ef0128-3f98-11ec-a732-00163cf0ed57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}, udp: true}
+  - {name: 欧洲21, server: 122.192.189.8, port: 19606, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欧洲22, server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇸🇬 新加坡, server: 139.59.254.17, port: 12081, type: vmess, uuid: 39f1943b-282e-44a4-9f56-5d59107d919e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 139.59.254.17}, udp: true}
+  - {name: 🇨🇦 加拿大2, server: ss2.ssrsub.com, port: 3443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub, udp: true}
+  - {name: 🇷🇺 俄罗斯5, server: t7.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t7.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲23, server: t4.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t4.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 俄罗斯6, server: t4.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t4.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国12, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d, udp: true}
+  - {name: 欧洲24, server: 134.195.196.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲25, server: 185.174.159.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: 欧洲26, server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
+  - {name: 🇺🇲 美国13, server: 172.93.153.148, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
+  - {name: 🇺🇲 美国14, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
+  - {name: 🇺🇲 美国15, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: 🇺🇲 美国16, server: 172.93.153.148, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: 🇺🇲 美国17, server: 159.223.67.223, port: 58443, type: vmess, uuid: 07c40cf6-db51-4179-cce7-5607cc0d301b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.67.223}, udp: true}
+  - {name: 🇺🇲 美国18, server: 172.93.153.148, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: 欧洲27, server: 45.248.79.69, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: 欧洲28, server: 37.19.211.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: 🇺🇲 美国19, server: 172.93.153.148, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: 🇺🇲 美国20, server: 107.181.184.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
+  - {name: 🇺🇲 美国21, server: 45.87.214.253, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: 🇺🇲 美国22, server: 45.87.214.253, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: 欧洲29, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国23, server: 18.236.146.125, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.236.146.125}, udp: true}
+  - {name: 欧洲30, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
