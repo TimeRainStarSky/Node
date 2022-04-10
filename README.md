@@ -1,2 +1,2 @@
-- [Clash](https://github.com/TimeRainStarSky/Node/raw/Node/Clash.yaml)
-- [V2Ray](https://api.wcc.best/sub?target=v2ray&url=https%3A%2F%2Fraw.githubusercontent.com%2FTimeRainStarSky%2FNode%2FNode%2FClash.yaml)
+- [Clash](https://api.wcc.best/sub?target=clash&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_AdblockPlus.ini&url=https%3A%2F%2Fraw.githubusercontent.com%2FTimeRainStarSky%2FNode%2FNode%2FClash.yaml)
+- [V2Ray](https://api.wcc.best/sub?target=v2ray&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_AdblockPlus.ini&url=https%3A%2F%2Fraw.githubusercontent.com%2FTimeRainStarSky%2FNode%2FNode%2FClash.yaml)
