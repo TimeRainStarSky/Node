@@ -1,495 +1,265 @@
 proxies:
-  - {name: QQ:2536554304, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 孟加拉1, server: 220.158.232.150, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 加拿大1, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6129CFHR, headers: {Host: ru1.lolvps.xyz}}, udp: true}
-  - {name: 加拿大2, server: ca1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, skip-cert-verify: true, udp: true}
-  - {name: 德国1, server: srvf.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apiws, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 德国2, server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: mci.myandroidplus1.ir}}, udp: true}
-  - {name: 法国1, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-  - {name: 英国1, server: wg.nfeng6.pp.ua, port: 52230, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国2, server: sh.moonfree.top, port: 11267, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rackedgeuk510.moonfree.top}}, udp: true}
-  - {name: 香港1, server: gy.cwcsrsyby.xyz, port: 47513, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港2, server: gy.cwcsrsyby.xyz, port: 47510, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港3, server: hkt1.ddns-pop.cyou, port: 10020, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 香港4, server: 521hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 521hk.fans8.xyz}}, udp: true}
-  - {name: 香港5, server: hk-i.sserver.top, port: 80, type: vmess, uuid: 8cb5bcba-8b7f-3141-a400-351a83c80f09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 伊朗1, server: srvf.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apiws, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 日本1, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本2, server: gy.cwcsrsyby.xyz, port: 47520, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本3, server: wg.nfeng6.pp.ua, port: 52334, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本4, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本5, server: wg.nfeng6.pp.ua, port: 52212, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本6, server: crus2.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 日本7, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本8, server: jpaz4.xmrth-node.xyz, port: 15421, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 日本9, server: cm.googo.cyou, port: 10005, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938, udp: true}
-  - {name: 日本10, server: free-jpzx.vmess.top, port: 35122, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 日本11, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: 日本12, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 韩国1, server: v2-5.godlight.xyz, port: 27000, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
-  - {name: 菲律宾1, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 新加坡1, server: wg.nfeng6.pp.ua, port: 52335, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡2, server: crus5.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 新加坡3, server: 521sg.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 521sg.fans8.xyz}}, udp: true}
-  - {name: 新加坡4, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 新加坡5, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 新加坡6, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 新加坡7, server: gz.cm.abc-api.top, port: 28919, type: ss, cipher: chacha20-ietf-poly1305, password: 1d88a43d-2f4e-4aba-a146-bf2325549314, udp: true}
-  - {name: 台湾1, server: gy.cwcsrsyby.xyz, port: 47519, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾2, server: wg.nfeng6.pp.ua, port: 52211, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾3, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: 台湾4, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: 台湾5, server: b10.v2.gay, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 台湾6, server: b10.v2.gay, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 台湾7, server: cm.googo.cyou, port: 10008, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938, udp: true}
-  - {name: 美国1, server: 20.247.65.79, port: 80, type: vmess, uuid: 4068763c-4f11-4629-853a-761c457d245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 美国2, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
-  - {name: 美国3, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: 美国4, server: b21.v2.gay, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: 美国5, server: vfly9.win, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly9.win}}, udp: true}
-  - {name: 美国6, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: 美国7, server: rn.102498.eu.org, port: 2053, type: vmess, uuid: 72b86dc6-39d8-3df1-8249-cd79ac88b467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: rn.102498.eu.org}}, udp: true}
-  - {name: 美国8, server: crus8.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 美国9, server: crus7.gzfxd.xyz, port: 10106, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 美国10, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 美国11, server: 104.19.3.12, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
-  - {name: 美国12, server: app.ssfree.ru, port: 443, type: vmess, uuid: d245a65e-da4c-11ec-97d7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: 美国13, server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: 美国14, server: 20.247.65.79, port: 80, type: vmess, uuid: 4068763c-4f11-4629-853a-761c457d245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 美国15, server: 20.247.65.79, port: 80, type: vmess, uuid: 4068763c-4f11-4629-853a-761c457d245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
-  - {name: 美国16, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: 美国17, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, skip-cert-verify: true, udp: true}
-  - {name: 美国18, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 美国19, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 美国20, server: views.pickaxe.sh, port: 443, type: trojan, password: XQ5jxs58ecd403l7, skip-cert-verify: true, udp: true}
-  - {name: 爱尔兰1, server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f495ba1f, headers: {Host: lluucc3.herokuapp.com}}, udp: true}
-  - {name: 美国21, server: clash0.free4444.xyz, port: 30033, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 美国22, server: ssr3.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 美国23, server: clash5.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 荷兰1, server: 213.183.59.190, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-
-  - {name: 欧洲1, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: 欧洲2, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: 欧洲3, server: 120.232.239.6, port: 31220, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲4, server: 172.66.47.44, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: xxX2, ws-headers: {Host: web1.wweblog.pw}, udp: true}
-  - {name: 美国1, server: 20.222.89.209, port: 364, type: vmess, uuid: fe54fd31-1291-4c79-bb5b-06febd30ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国2, server: 20.222.89.209, port: 364, type: vmess, uuid: fe54fd31-1291-4c79-bb5b-06febd30ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲5, server: 20.222.89.209, port: 364, type: vmess, uuid: fe54fd31-1291-4c79-bb5b-06febd30ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国3, server: 20.247.65.79, port: 80, type: vmess, uuid: 4068763c-4f11-4629-853a-761c457d245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.247.65.79}, udp: true}
-  - {name: 欧洲6, server: 207.246.108.107, port: 29303, type: vmess, uuid: e69a7cb6-ee04-40ed-99da-55f5ba8b0034, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cB35d8gV/, ws-headers: {Host: 207.246.108.107}, udp: true}
-  - {name: 欧洲7, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 欧洲8, server: 426hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 426hk.fans8.xyz}, udp: true}
-  - {name: 欧洲9, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51jp1.fans8.xyz}, udp: true}
-  - {name: 欧洲10, server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst, udp: true}
-  - {name: 美国4, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: 美国5, server: app.ssfree.ru, port: 443, type: vmess, uuid: d245a65e-da4c-11ec-97d7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: app.ssfree.ru}, udp: true}
-  - {name: 香港1, server: awshk.yeem.cc, port: 21210, type: vmess, uuid: 44b9d6a2-58e5-46ea-b717-8c40c0c01752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲1, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲11, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯1, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲12, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲13, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲14, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国6, server: c61s3.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国7, server: c61s3.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国8, server: c61s4.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国9, server: c61s4.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲15, server: c61s5.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲16, server: c61s5.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国10, server: c61s801.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国11, server: c61s801.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国12, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 新加坡1, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: crus9.gzfxd.xyz}, udp: true}
-  - {name: 欧洲17, server: de-02.fireplay.io, port: 443, type: trojan, password: YrnU2nhCTrx7aPLU, sni: de-02.fireplay.io, skip-cert-verify: true, udp: true}
-  - {name: 欧洲18, server: de-03.fireplay.io, port: 443, type: trojan, password: 63X7Dg58EII2qt6f, sni: de-03.fireplay.io, skip-cert-verify: true, udp: true}
-  - {name: 美国13, server: docs.defun.us, port: 443, type: trojan, password: WEMagdSekdGBxh6g, sni: docs.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 美国14, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /movies, ws-headers: {Host: douban.babazhuji.com}, udp: true}
-  - {name: 美国15, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /movies, ws-headers: {Host: douban.babazhuji.com}, udp: true}
-  - {name: 美国16, server: events.starspace.link, port: 443, type: trojan, password: 3RWFPCmWd4lYIMof, sni: events.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 欧洲19, server: free-jpzx.vmess.top, port: 35122, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 香港2, server: hkaz002.xmrth-node.xyz, port: 15909, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 香港3, server: hkaz004.xmrth-node.xyz, port: 15911, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 香港4, server: hkaz005.xmrth-node.xyz, port: 15891, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 香港5, server: hkaz5.xmrth-node.xyz, port: 15904, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 美国17, server: hk-c1.myuuusss.com, port: 80, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c1.myuuusss.com}, udp: true}
-  - {name: 美国18, server: hk-c1.myuuusss.com, port: 80, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c1.myuuusss.com}, udp: true}
-  - {name: 美国19, server: hk-c1.myuuusss.com, port: 80, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c1.myuuusss.com}, udp: true}
-  - {name: 美国20, server: holidays.starspace.link, port: 443, type: trojan, password: XCPKaaV8I1rmb7Ai, sni: holidays.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 亚洲3, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 亚洲4, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: 亚洲5, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: 亚洲6, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 亚洲7, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 亚洲8, server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 亚洲9, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 欧洲20, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国21, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 日本1, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国22, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲21, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国23, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲22, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲23, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲24, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲25, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 日本2, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: 日本3, server: jp1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp1.trojan.tel, skip-cert-verify: true, udp: true}
-  - {name: 日本4, server: jpaz3.xmrth-node.xyz, port: 15944, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 日本5, server: jpaz4.xmrth-node.xyz, port: 15421, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 日本6, server: jplin005.xmrth-node.xyz, port: 15698, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 美国24, server: living.starspace.link, port: 443, type: trojan, password: NNhSlVRhte1Vzw5D, sni: living.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 美国25, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: lsj02.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: 欧洲26, server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: mci.myandroidplus1.ir}, udp: true}
-  - {name: 美国26, server: meet-two.defun.us, port: 443, type: trojan, password: SolQapgEUoQ1ISsB, sni: meet-two.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 美国27, server: outdoor.starspace.link, port: 443, type: trojan, password: 4brytjljFgnUu3WU, sni: outdoor.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 美国28, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 美国29, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, sni: rooms.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 欧洲27, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6129CFHR, ws-headers: {Host: ru1.lolvps.xyz}, udp: true}
-  - {name: 新加坡2, server: sgp.sharecentre.xyz, port: 443, type: trojan, password: sharecentre, sni: sgp.sharecentre.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国30, server: snacks.starspace.link, port: 443, type: trojan, password: 0lbw6RXSl7eqCYMv, sni: snacks.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 欧洲28, server: srvf.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /apiws, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 美国31, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, sni: storage.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 美国32, server: sunhaoduo.tk, port: 443, type: trojan, password: b61d3b3c, sni: sunhaoduo.tk, skip-cert-verify: true, udp: true}
-  - {name: 美国33, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: 俄罗斯3, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 俄罗斯4, server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: 欧洲29, server: v2-2.godlight.xyz, port: 27000, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: 欧洲30, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: 美国34, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: 俄罗斯5, server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 美国35, server: values.pickaxe.sh, port: 443, type: trojan, password: PMQFH35hsbfi5tnw, sni: values.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: 美国36, server: views.pickaxe.sh, port: 443, type: trojan, password: XQ5jxs58ecd403l7, sni: views.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: 欧洲31, server: vn01v2.vpnsieure.com, port: 80, type: vmess, uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnsieure, ws-headers: {Host: livestream2.tv360.vn}, udp: true}
-  - {name: 日本7, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国37, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, sni: wireless.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 亚洲10, server: zzcm09.bdate.xyz, port: 1510, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 亚洲11, server: zzcm09.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: 台湾1, server: zzcm09.bdate.xyz, port: 1320, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: 欧洲32, server: zzcm09.bdate.xyz, port: 1510, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: 欧洲33, server: zzcm09.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: 欧洲34, server: zzcm09.bdate.xyz, port: 1420, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: 欧洲35, server: zzcm09.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: 欧洲36, server: zzcm09.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: 欧洲37, server: zzcm09.bdate.xyz, port: 1040, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-
-  - {name: 1|Netflix_1, server: jp01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 206d4dc6-64e4-447f-b09b-5e52fe0f6e75, sni: jp01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_2, server: jp02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 206d4dc6-64e4-447f-b09b-5e52fe0f6e75, sni: jp02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_3, server: jp04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 206d4dc6-64e4-447f-b09b-5e52fe0f6e75, sni: jp04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_4, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51us.fans8.xyz}}, udp: true}
-  - {name: 1|Netflix_5, server: jp03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 206d4dc6-64e4-447f-b09b-5e52fe0f6e75, sni: jp03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_6, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_7, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-  - {name: 1|Netflix_8, server: hk02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 206d4dc6-64e4-447f-b09b-5e52fe0f6e75, sni: hk02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_9, server: v2.godlight.xyz, port: 27000, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
-  - {name: 1|Netflix_10, server: v2-1.godlight.xyz, port: 27000, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
-  - {name: 1|Netflix_11, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_12, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 1|Netflix_13, server: hk01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 206d4dc6-64e4-447f-b09b-5e52fe0f6e75, sni: hk01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_14, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-  - {name: 1|Netflix_15, server: 521sg.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 521sg.fans8.xyz}}, udp: true}
-  - {name: 1|Netflix_16, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-  - {name: 1|Netflix_17, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-  - {name: 1|Netflix_18, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_19, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_20, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_21, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_22, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_23, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_24, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_25, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_26, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_27, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_28, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_29, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_30, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_31, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_32, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_33, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_34, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_35, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_36, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_37, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_38, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_39, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_40, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_41, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_42, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_43, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_44, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_45, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_46, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_47, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_48, server: sshk05.wangyiyunniubi.com, port: 13033, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_49, server: sstw04.wangyiyunniubi.com, port: 13025, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_50, server: sssg02.wangyiyunniubi.com, port: 13012, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_51, server: free-jpzx.vmess.top, port: 35121, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_52, server: kr01.wangyiyunniubi.com, port: 13003, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: kr01.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_53, server: free-jpzx.vmess.top, port: 35125, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_54, server: hk03.wangyiyunniubi.com, port: 13008, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: hk03.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_55, server: sshk03.wangyiyunniubi.com, port: 13013, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_56, server: az-hk.vmess.top, port: 39123, type: vmess, uuid: 105d9cf8-086a-4c18-9733-6684bd7780fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: az-hk.vmess.top}}, udp: true}
-  - {name: 1|Netflix_57, server: ssind01.wangyiyunniubi.com, port: 13015, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_58, server: ssjp01.wangyiyunniubi.com, port: 13022, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_59, server: sstw04.wangyiyunniubi.com, port: 13025, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_60, server: sshk03.wangyiyunniubi.com, port: 13013, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_61, server: gzyd.qlyun.xyz, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
-  - {name: 1|Netflix_62, server: sshk05.wangyiyunniubi.com, port: 13033, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_63, server: sshk04.wangyiyunniubi.com, port: 12009, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_64, server: sssg02.wangyiyunniubi.com, port: 13012, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_65, server: sshk01.wangyiyunniubi.com, port: 13017, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_66, server: sstw02.wangyiyunniubi.com, port: 12008, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_67, server: free-jpzx.vmess.top, port: 35122, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_68, server: ssjp03.wangyiyunniubi.com, port: 13029, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_69, server: hk03.wangyiyunniubi.com, port: 13008, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: hk03.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_70, server: free-jpzx.vmess.top, port: 35123, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_71, server: ssphi01.wangyiyunniubi.com, port: 13035, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_72, server: hk02.wangyiyunniubi.com, port: 12002, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: hk02.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_73, server: sssg03.wangyiyunniubi.com, port: 12011, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_74, server: jp02.wangyiyunniubi.com, port: 13019, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: jp02.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_75, server: free-jpzx.vmess.top, port: 35124, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_76, server: ssjp03.wangyiyunniubi.com, port: 13029, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_77, server: hk02.wangyiyunniubi.com, port: 12002, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: hk02.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_78, server: hk04.wangyiyunniubi.com, port: 13010, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: hk04.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_79, server: ssphi01.wangyiyunniubi.com, port: 13035, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_80, server: sshk04.wangyiyunniubi.com, port: 12009, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_81, server: ssind01.wangyiyunniubi.com, port: 13015, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_82, server: kr02.wangyiyunniubi.com, port: 32136, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: kr02.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_83, server: kr01.wangyiyunniubi.com, port: 13003, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: kr01.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_84, server: free-jpzx.vmess.top, port: 35122, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_85, server: gz.cm.abc-api.top, port: 28919, type: ss, cipher: chacha20-ietf-poly1305, password: 1d88a43d-2f4e-4aba-a146-bf2325549314, udp: true}
-  - {name: 1|Netflix_86, server: gzyd.qlyun.xyz, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 1c0e4a18-4d7a-4231-a55d-1dee0fe6732a, udp: true}
-  - {name: 1|Netflix_87, server: jp02.wangyiyunniubi.com, port: 13019, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: jp02.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_88, server: iplchk01.iplcserver.com, port: 14333, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_89, server: us01.wangyiyunniubi.com, port: 13011, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: us01.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_90, server: us01.wangyiyunniubi.com, port: 13011, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: us01.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_91, server: hk04.wangyiyunniubi.com, port: 13010, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: hk04.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_92, server: kr02.wangyiyunniubi.com, port: 32136, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: kr02.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_93, server: iplchk01.iplcserver.com, port: 14333, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_94, server: us04.wangyiyunniubi.com, port: 13020, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: us04.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_95, server: ssca01.wangyiyunniubi.com, port: 13011, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_96, server: sshk01.wangyiyunniubi.com, port: 13017, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_97, server: us04.wangyiyunniubi.com, port: 13020, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: us04.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_98, server: sssg03.wangyiyunniubi.com, port: 12011, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_99, server: ssca01.wangyiyunniubi.com, port: 13011, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_100, server: az-jp.vmess.top, port: 39123, type: vmess, uuid: 105d9cf8-086a-4c18-9733-6684bd7780fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /user, headers: {Host: az-jp.vmess.top}}, udp: true}
-  - {name: 1|Netflix_101, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_102, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_103, server: ssjp01.wangyiyunniubi.com, port: 13022, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_104, server: sstw02.wangyiyunniubi.com, port: 12008, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_105, server: rus01.wangyiyunniubi.com, port: 13023, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: rus01.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_106, server: rus01.wangyiyunniubi.com, port: 13023, type: trojan, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, sni: rus01.wangyiyunniubi.com, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_107, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51us.fans8.xyz}}, udp: true}
-  - {name: 1|Netflix_108, server: zh01lv5us04.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 5094fb82-845e-4a36-9520-e1e9f917ca13, udp: true}
-  - {name: 1|Netflix_109, server: awshk.yeem.cc, port: 21210, type: vmess, uuid: 44b9d6a2-58e5-46ea-b717-8c40c0c01752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_110, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_111, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 1|Netflix_112, server: ssth01.wangyiyunniubi.com, port: 13009, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_113, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 1|Netflix_114, server: v2-5.godlight.xyz, port: 27000, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
-  - {name: 1|Netflix_115, server: sh.moonfree.top, port: 11267, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rackedgeuk510.moonfree.top}}, udp: true}
-  - {name: 1|Netflix_116, server: ssth01.wangyiyunniubi.com, port: 13009, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: 1|Netflix_117, server: zh01lv5us04.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 5094fb82-845e-4a36-9520-e1e9f917ca13, udp: true}
-  - {name: 1|Netflix_118, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: 1|Netflix_119, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
-
-  - {name: 2|Netflix_1, server: c61s4.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_2, server: free-jpzx.vmess.top, port: 35122, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top}
-  - {name: 2|Netflix_3, server: cm.googo.cyou, port: 10015, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938}
-  - {name: 2|Netflix_4, server: cm.googo.cyou, port: 10007, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938}
-  - {name: 2|Netflix_5, server: cn2.googo.cyou, port: 10000, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938}
-  - {name: 2|Netflix_6, server: cm.googo.cyou, port: 10012, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938}
-  - {name: 2|Netflix_7, server: c61s4.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_8, server: c61s5.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_9, server: cm.googo.cyou, port: 10008, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938}
-  - {name: 2|Netflix_10, server: free-jpzx.vmess.top, port: 35121, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top}
-  - {name: 2|Netflix_11, server: v2-5.godlight.xyz, port: 27000, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}}
-  - {name: 2|Netflix_12, server: free-jpzx.vmess.top, port: 35125, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top}
-  - {name: 2|Netflix_13, server: c61s5.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_14, server: free-jpzx.vmess.top, port: 35123, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top}
-  - {name: 2|Netflix_15, server: free-jpzx.vmess.top, port: 35122, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top}
-  - {name: 2|Netflix_16, server: free-jpzx.vmess.top, port: 35124, type: trojan, password: 105d9cf8-086a-4c18-9733-6684bd7780fc, sni: free-jpzx.vmess.top}
-  - {name: 2|Netflix_17, server: c61s4.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_18, server: az-jp.vmess.top, port: 39123, type: vmess, uuid: 105d9cf8-086a-4c18-9733-6684bd7780fc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /user, headers: {Host: az-jp.vmess.top}}}
-  - {name: 2|Netflix_19, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}}
-  - {name: 2|Netflix_20, server: cm.googo.cyou, port: 10005, type: ss, cipher: aes-128-gcm, password: 4b123507-254e-49f9-b56e-eda890788938}
-  - {name: 2|Netflix_21, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: 2|Netflix_22, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online}
-  - {name: 2|Netflix_23, server: gy.cwcsrsyby.xyz, port: 47512, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_24, server: gy.cwcsrsyby.xyz, port: 47512, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_25, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /go, headers: {Host: us03.gogogoo.cyou}}}
-  - {name: 2|Netflix_26, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}}
-  - {name: 2|Netflix_27, server: c61s801.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_28, server: c61s3.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_29, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30}
-  - {name: 2|Netflix_30, server: c61s3.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_31, server: az-jp.vmess.top, port: 39123, type: vmess, uuid: 105d9cf8-086a-4c18-9733-6684bd7780fc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /user, headers: {Host: az-jp.vmess.top}}}
-  - {name: 2|Netflix_32, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}}
-  - {name: 2|Netflix_33, server: c61s3.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|Netflix_34, server: 426hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}}
-  - {name: 2|Netflix_35, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: 2|Netflix_36, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}}
-  - {name: 2|Netflix_37, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}}
-  - {name: 2|Netflix_38, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: 2|Netflix_39, server: c61s801.jamjams.net, port: 29907, type: vmess, uuid: bd316a79-4d18-4c8c-82cf-ffe99e7c634d, alterId: 0, cipher: auto, tls: false}
-
-  - {name: 3|Netflix_1, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 5094fb82-845e-4a36-9520-e1e9f917ca13, udp: true}
-  - {name: 3|Netflix_2, server: hz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_3, server: hz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_4, server: hz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_5, server: hz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_6, server: hz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_7, server: hz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_8, server: gz.cm.abc-api.top, port: 28919, type: ss, cipher: chacha20-ietf-poly1305, password: 1d88a43d-2f4e-4aba-a146-bf2325549314, udp: true}
-  - {name: 3|Netflix_9, server: wg.nfeng6.pp.ua, port: 52219, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_10, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_11, server: hz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_12, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_13, server: wg.nfeng6.pp.ua, port: 52211, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_14, server: gy.moonfree.top, port: 17253, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb2.moonfree.top}}, udp: true}
-  - {name: 3|Netflix_15, server: hz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_16, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_17, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_18, server: wg.nfeng6.pp.ua, port: 52213, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_19, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6129CFHR, headers: {Host: ru1.lolvps.xyz}}, udp: true}
-  - {name: 3|Netflix_20, server: gz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_21, server: hz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_22, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8a76fb13/, headers: {Host: yyyy.wwwbhjy.com}}, udp: true}
-  - {name: 3|Netflix_23, server: wg.nfeng6.pp.ua, port: 52217, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_24, server: hz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_25, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_26, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_27, server: sgp.sharecentre.xyz, port: 443, type: trojan, password: sharecentre, sni: sgp.sharecentre.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_28, server: gz.bgp.rx.naiun.pw, port: 45413, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_29, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_30, server: v2-2.godlight.xyz, port: 27000, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
-  - {name: 3|Netflix_31, server: gz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_32, server: gz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_33, server: hz.bgp.rx.naiun.pw, port: 45413, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_34, server: wg.nfeng6.pp.ua, port: 52218, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_35, server: hz.bgp.rx.naiun.pw, port: 45324, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_36, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_37, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51us.fans8.xyz}}, udp: true}
-  - {name: 3|Netflix_38, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: cffada6c-1591-4b80-9648-3bd9de799b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 3|Netflix_39, server: v2-1.godlight.xyz, port: 27000, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
-  - {name: 3|Netflix_40, server: gz.bgp.rx.naiun.pw, port: 45324, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_41, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: 3|Netflix_42, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_43, server: wg.nfeng6.pp.ua, port: 52335, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_44, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_45, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_46, server: wg.nfeng6.pp.ua, port: 52229, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_47, server: wg.nfeng6.pp.ua, port: 52211, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_48, server: gz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: cffada6c-1591-4b80-9648-3bd9de799b38, udp: true}
-  - {name: 3|Netflix_49, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: crus9.gzfxd.xyz}}, udp: true}
-  - {name: 3|Netflix_50, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51jp1.fans8.xyz}}, udp: true}
-  - {name: 3|Netflix_51, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}, udp: true}
-  - {name: 3|Netflix_52, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_53, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 3|Netflix_54, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 3|Netflix_55, server: app.ssfree.ru, port: 443, type: vmess, uuid: d245a65e-da4c-11ec-97d7-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: 3|Netflix_56, server: v2.godlight.xyz, port: 27000, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
-  - {name: 3|Netflix_57, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: da094b71-44ed-4525-92c2-16edb494475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: crus9.gzfxd.xyz}}, udp: true}
-  - {name: 3|Netflix_58, server: wg.nfeng6.pp.ua, port: 52334, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_59, server: sunhaoduo.tk, port: 443, type: trojan, password: b61d3b3c, sni: sunhaoduo.tk, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_60, server: wg.nfeng6.pp.ua, port: 52213, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_61, server: wg.nfeng6.pp.ua, port: 52230, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_62, server: v2-1.godlight.xyz, port: 27000, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
-  - {name: 3|Netflix_63, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_64, server: wg.nfeng6.pp.ua, port: 52333, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_65, server: wg.nfeng6.pp.ua, port: 52212, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_66, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 2e1a3721-c322-40ed-8d23-881c7be90839, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_67, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
-  - {name: 3|Netflix_68, server: wg.nfeng6.pp.ua, port: 52231, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_69, server: wg.nfeng6.pp.ua, port: 52230, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_70, server: wg.nfeng6.pp.ua, port: 52333, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_71, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 3|Netflix_72, server: vfly9.win, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly9.win}}, udp: true}
-  - {name: 3|Netflix_73, server: wg.nfeng6.pp.ua, port: 52218, type: vmess, uuid: 4e66672a-184c-30e4-900a-a19004c38e85, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_74, server: wg.nfeng6.pp.ua, port: 52335, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_75, server: wg.nfeng6.pp.ua, port: 52219, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_76, server: wg.nfeng6.pp.ua, port: 52212, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|Netflix_77, server: wg.nfeng6.pp.ua, port: 52334, type: vmess, uuid: 858e84e3-e179-3547-8451-01bb138e296c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-
-  - name: 🇺🇸 HTTPS｜美国01
-    server: h961359.droplet.today
-    port: 11245
-    type: http
-    username: "dcf12c7e7d"
-    password: "26bae9b023"
-    tls: true
-  - name: 🇺🇸 HTTPS｜美国02
-    server: h961684.droplet.today
-    port: 11245
-    type: http
-    username: "dcf12c7e7d"
-    password: "26bae9b023"
-    tls: true
-  - name: 🇩🇪 HTTPS｜德国01
-    server: h961684.droplet.today
-    port: 11745
-    type: http
-    username: "dcf12c7e7d"
-    password: "26bae9b023"
-    tls: true
-  - name: 🇯🇵 HTTPS｜日本01
-    server: h961359.droplet.today
-    port: 11445
-    type: http
-    username: "dcf12c7e7d"
-    password: "26bae9b023"
-    tls: true
-  - name: 🇯🇵 HTTPS｜日本02
-    server: h961684.droplet.today
-    port: 11445
-    type: http
-    username: "dcf12c7e7d"
-    password: "26bae9b023"
-    tls: true
-  - name: 🇭🇰 HTTPS｜香港06
-    server: h890361.droplet.today
-    port: 11545
-    type: http
-    username: "dcf12c7e7d"
-    password: "26bae9b023"
-    tls: true
-  - name: 🇭🇰 HTTPS｜香港07
-    server: h961359.droplet.today
-    port: 11545
-    type: http
-    username: "dcf12c7e7d"
-    password: "26bae9b023"
-    tls: true
-  - name: "网友投稿-1"
-    password: 26bae9b023
-    server: h890361.droplet.today
-    type: http
-    port: 11545
-    username: dcf12c7e7d
-    tls: true
-    skip-cert-verify: true
-  - name: "台湾01"
-    password: 26bae9b023
-    server: h3816tw.droplet.today
-    type: http
-    port: 20443
-    username: dcf12c7e7d
-    tls: true
-    skip-cert-verify: true
-  - name: "网友投稿-2"
-    password: 26bae9b023
-    server: h961684.droplet.today
-    type: http
-    port: 11745
-    username: dcf12c7e7d
-    tls: true
-    skip-cert-verify: true
-  - name: "网友投稿-3"
-    password: 26bae9b023
-    server: h961684.droplet.today
-    type: http
-    port: 11245
-    username: dcf12c7e7d
-    tls: true
-    skip-cert-verify: true
+  - {name: QQ：2536554304, server: us10.edge.boom.party, port: 49001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【C】狮城 VIP C - 阿里云, server: n05.boom.party, port: 30001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【F】土耳其 VIP 1 - Steam, server: s01.boom.party, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【F】香港  VIP 4 - Nearoute, server: n63.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【J】香港 VIP 2 - Netflix, server: nj2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【K】新加坡 普通 3 - DO, server: nka.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【M】香港 VIP 7 - Netflix, server: nm7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【N】日本 VIP 4 - Nerocloud, server: jp9.boom.party, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 【N】日本 VIP E - Leaseweb, server: nn5.boom.party, port: 44000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 84476:TISm0W, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 加拿大1, server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大2, server: 134.195.196.85, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大3, server: 134.195.196.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大4, server: 134.195.196.85, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大5, server: 134.195.196.85, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 德国1, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}, udp: true}
+  - {name: 英国❤UK, server: cunicom.sev7en.cc, port: 22017, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
+  - {name: 英国1, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}, udp: true}
+  - {name: 英国2, server: vpnu.loungers.cc, port: 56830, type: vmess, uuid: d2e92a19-f50c-426e-cd15-03ece7f4f3b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws/x-ui, headers: {Host: vpnu.loungers.cc}}, udp: true}
+  - {name: 英国3, server: vpnu.loungers.cc, port: 56830, type: vmess, uuid: d2e92a19-f50c-426e-cd15-03ece7f4f3b1, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws/x-ui, headers: {Host: vpnu.loungers.cc}}, udp: true}
+  - {name: 香港1, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 香港2, server: cj3ugw6e8qj6rp.cooc.icu, port: 443, type: vmess, uuid: 3560d444-23d6-4a2f-adae-2bd4f14a277d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cj3ugw6e8qj6rp.cooc.icu}}, udp: true}
+  - {name: 香港3, server: ngnb0cig3icga2.cooc.icu, port: 443, type: vmess, uuid: 1d5589a2-7179-40d1-acf2-09cc08b8ddf4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ngnb0cig3icga2.cooc.icu}}, udp: true}
+  - {name: 香港4, server: wpf99u67jnkw2h.cooc.icu, port: 443, type: vmess, uuid: 2a9e8fde-6986-453b-92e2-194a6b97d110, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wpf99u67jnkw2h.cooc.icu}}, udp: true}
+  - {name: 香港5, server: gkdcm.myjcbbcn.top, port: 25896, type: vmess, uuid: 3b27a2a3-4da9-41d3-8f93-135ae8213aab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 香港6, server: c91s3.jamjams3.net, port: 6099, type: vmess, uuid: da575226-dfc2-4341-807d-6664521b9f4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印尼❤ID, server: cunicom.sev7en.cloud, port: 22019, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
+  - {name: 印尼1, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnneo, headers: {Host: exa.nextvpn.cc}}, udp: true}
+  - {name: 印尼2, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnneo, headers: {Host: biznet-s.nextvpn.cc}}, udp: true}
+  - {name: 印尼3, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws-makae, headers: {Host: bn-id01.ipv2ray.xyz}}, udp: true}
+  - {name: 印度❤️IN➤2, server: shared.sev7en.cc, port: 20017, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
+  - {name: 印度1, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: 日本1, server: jp.v2yyds.cc, port: 35212, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: jp.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本2, server: jp.v2yyds.cc, port: 35211, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: jp.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本3, server: jp.v2yyds.cc, port: 35213, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: jp.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本4, server: c91s1.jamjams3.net, port: 6099, type: ss, cipher: aes-256-gcm, password: EC2zezQCB7xTKNXF, udp: true}
+  - {name: 日本5, server: oej82oa01ouia7.cooc.icu, port: 19980, type: ss, cipher: chacha20-ietf-poly1305, password: 5aa38161-1ec6-4206-9fc7-5cbc213e3412, udp: true}
+  - {name: 日本6, server: 120.233.25.136, port: 54902, type: ss, cipher: chacha20-ietf-poly1305, password: F77EbseT9YJkL, udp: true}
+  - {name: 日本7, server: c91s2.jamjams3.net, port: 6099, type: ss, cipher: aes-256-gcm, password: EC2zezQCB7xTKNXF, udp: true}
+  - {name: 日本8, server: 194.156.231.248, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本9, server: 194.156.231.237, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本10, server: 194.156.231.248, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本11, server: 194.156.231.237, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本12, server: 194.156.231.237, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本13, server: 194.156.231.237, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本14, server: 194.156.231.251, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本15, server: 194.156.231.237, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本16, server: 194.156.231.248, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本17, server: 89.31.126.31, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本18, server: 89.31.126.31, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本19, server: 89.31.126.31, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本20, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 日本21, server: 5.183.176.94, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本22, server: 185.172.113.102, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本23, server: 185.172.113.102, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本24, server: 185.172.113.102, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 日本25, server: jp2.circloud123.com, port: 80, type: vmess, uuid: c46122b1-2d34-41ad-9d9e-93057b33d22c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: jp2.circloud123.com}}, udp: true}
+  - {name: 日本26, server: jp3.circloud123.com, port: 443, type: vmess, uuid: c46122b1-2d34-41ad-9d9e-93057b33d22c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: jp3.circloud123.com}}, udp: true}
+  - {name: 日本27, server: jp3.circloud123.com, port: 443, type: vmess, uuid: 44aa231d-6611-497c-b514-c09f56587897, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: jp3.circloud123.com}}, udp: true}
+  - {name: 日本28, server: sg3.circloud123.com, port: 80, type: vmess, uuid: 44aa231d-6611-497c-b514-c09f56587897, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: sg3.circloud123.com}}, udp: true}
+  - {name: 日本29, server: jp2.circloud123.com, port: 80, type: vmess, uuid: 3965e71b-375a-48df-9f4a-dd017768f919, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: jp2.circloud123.com}}, udp: true}
+  - {name: 日本30, server: 172.64.157.139, port: 443, type: vmess, uuid: 2afed3b1-0f8c-44fd-842b-8b3dbea7cae3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azjp.pengui.xyz, headers: {Host: azjp.pengui.xyz}}, udp: true}
+  - {name: 日本31, server: 172.64.157.139, port: 443, type: vmess, uuid: 7a010436-7b4a-4e65-ade4-844ba074ad58, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azjp.pengui.xyz, headers: {Host: azjp.pengui.xyz}}, udp: true}
+  - {name: 日本32, server: sg2.circloud123.com, port: 80, type: vmess, uuid: fbcf84f7-e17b-458b-a67e-2138c039f578, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: sg2.circloud123.com}}, udp: true}
+  - {name: 日本33, server: c71s4.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本34, server: sg3.circloud123.com, port: 80, type: vmess, uuid: c46122b1-2d34-41ad-9d9e-93057b33d22c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: sg3.circloud123.com}}, udp: true}
+  - {name: 日本35, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp3.0bad.com}}, udp: true}
+  - {name: 日本36, server: gkdcm.myjcbbcn.top, port: 25898, type: vmess, uuid: 52de0312-9f1c-4f0d-aadf-a3805c1c37bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 日本37, server: 172.64.157.139, port: 443, type: vmess, uuid: 065804dc-ed8a-4dd7-8e6e-3a57c88f9aa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azjp.pengui.xyz, headers: {Host: azjp.pengui.xyz}}, udp: true}
+  - {name: 韩国1, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 韩国2, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国3, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国4, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国5, server: best04.downloadmovie.cn, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 马来西亚1, server: m.mjmjmjmj.cyou, port: 26623, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 荷兰1, server: 92.38.184.228, port: 2097, type: ss, cipher: chacha20-ietf-poly1305, password: jRKkoWqkrw2f, udp: true}
+  - {name: 荷兰2, server: c91s5.jamjams3.net, port: 6099, type: vmess, uuid: da575226-dfc2-4341-807d-6664521b9f4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰3, server: c71s5.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯1, server: rn.v2yyds.com, port: 31911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯2, server: 120.233.151.171, port: 8060, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 俄罗斯3, server: v001.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /a11-dCeBnloadPy, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 俄罗斯4, server: v001.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /a11-dCeBnloadPy, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 新加坡❤SG➤3, server: shared.sev7en.cc, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
+  - {name: 新加坡1, server: sg.v2yyds.cc, port: 35213, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: sg.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2, server: sg.v2yyds.cc, port: 35214, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: sg.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 新加坡3, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: 新加坡4, server: sg-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: 新加坡5, server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡6, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: 新加坡7, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡8, server: 129.150.61.170, port: 29493, type: vmess, uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 新加坡9, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1原生, server: sg.v2yyds.cc, port: 35212, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: sg.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 泰国❤TH, server: cunicom.sev7en.cc, port: 20120, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
+  - {name: 台湾❤HiNet02, server: cmjm.julvab.com, port: 20019, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
+  - {name: 台湾1, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 36e4580b-d049-4ee0-bf0c-e6fa7a87e28d, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 台湾2, server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 台湾3, server: 120.233.151.171, port: 8020, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 台湾4, server: m.mjmjmjmj.cyou, port: 16616, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 台湾5, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 台湾6, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 台湾7, server: auto-moble.downloadmovie.cn, port: 65023, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 美国1, server: sg.v2yyds.cc, port: 35211, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: sg.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国2, server: bai-piao-wang-zhe.us.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国3, server: spotted.bigkangaroo.net, port: 443, type: trojan, password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax, skip-cert-verify: true, udp: true}
+  - {name: 美国4, server: listener.freetrade.link, port: 443, type: trojan, password: Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc, sni: listener.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: 美国5, server: qqf5vrvygt1rhl.cooc.icu, port: 27882, type: ss, cipher: chacha20-ietf-poly1305, password: b084da77-a3de-490d-b5d4-81dbcccbe0aa, udp: true}
+  - {name: 美国6, server: qqf5vrvygt1rhl.cooc.icu, port: 27882, type: ss, cipher: chacha20-ietf-poly1305, password: 8b28dcd8-7bec-4dc6-a3e3-84ba251849fd, udp: true}
+  - {name: 美国7, server: cc4.qweasdzxc.gq, port: 45747, type: ss, cipher: chacha20-ietf-poly1305, password: 6ThhE43itV3, udp: true}
+  - {name: 美国8, server: c71s2.jamjams3.net, port: 10922, type: ss, cipher: aes-256-gcm, password: FEx7xDeueK37qfgL, udp: true}
+  - {name: 美国9, server: ss.us.zf.edu.ge, port: 19003, type: ss, cipher: chacha20-ietf-poly1305, password: d6ea6b6e-b007-4191-8588-85ae2a191d9c, udp: true}
+  - {name: 美国10, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 美国11, server: 38.64.138.145, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国12, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国13, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国14, server: 152.69.193.245, port: 80, type: vmess, uuid: 6697776b-d009-413b-8708-822ee2e02515, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 美国15, server: 173.82.205.212, port: 18088, type: vmess, uuid: 727b39a8-a8b7-11ec-8f28-f9224e8647f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DBTQ0rzf/, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 美国16, server: ifffffffuuuuuuus.qiqicdn2.cf, port: 443, type: vmess, uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess, headers: {Host: ifffffffuuuuuuus.qiqicdn2.cf}}, udp: true}
+  - {name: 美国17, server: c71s3.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国18, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusa.fovi.tk}}, udp: true}
+  - {name: 美国19, server: n4.v2.gay, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus4.0bad.com}}, udp: true}
+  - {name: 美国20, server: taobao.babazhuji.com, port: 443, type: vmess, uuid: 36712be8-f2ff-4875-8c67-95efd66ac994, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /didi, headers: {Host: taobao.babazhuji.com}}, udp: true}
+  - {name: 美国21, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
+  - {name: 美国22, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
+  - {name: 美国23, server: aop.ssfree.ru, port: 443, type: vmess, uuid: 459039f4-0260-11ed-a8d1-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: aop.ssfree.ru}}, udp: true}
+  - {name: 美国24, server: c91s801.jamjams3.net, port: 6099, type: vmess, uuid: da575226-dfc2-4341-807d-6664521b9f4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国25, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus4.0bad.com}}, udp: true}
+  - {name: 美国26, server: 188.114.97.110, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
+  - {name: 美国27, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: usa23.884899.cf}}, udp: true}
+  - {name: 越南1, server: 103.176.111.247, port: 80, type: vmess, uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nkpvpn.site, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 阿根廷1, server: best03.downloadmovie.cn, port: 65086, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 阿根廷2, server: best04.downloadmovie.cn, port: 65086, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 埃及1, server: best04.downloadmovie.cn, port: 65090, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 罗马1, server: 5.188.0.151, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 罗马2, server: 5.188.0.151, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 罗马3, server: 5.188.0.151, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 孟加拉国1, server: u.mjmjmjmj.cyou, port: 16634, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: u.mjmjmjmj.cyou}}, udp: true}
+  - {name: 南非1, server: best04.downloadmovie.cn, port: 65070, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 瑞典1, server: gb.v2yyds.com, port: 32912, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, skip-cert-verify: true, udp: true}
+  - {name: 瑞典2, server: gb.v2yyds.com, port: 32911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, skip-cert-verify: true, udp: true}
+  - {name: 瑞士1, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 5137dd43-d94e-4293-ae87-a42a3730742e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
+  - {name: 沙特1, server: best02.downloadmovie.cn, port: 65071, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 泰国1, server: best03.downloadmovie.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 土耳其1, server: best03.downloadmovie.cn, port: 65073, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 土耳其2, server: best04.downloadmovie.cn, port: 65073, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 乌克兰1, server: best04.downloadmovie.cn, port: 65080, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: 欧洲1, server: 120.233.7.225, port: 100, type: trojan, password: 7dp3vF, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
+  - {name: 新加坡2, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 欧洲2, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本1, server: gzyd2.52147.top, port: 20120, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 美国1, server: 38.143.66.87, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲3, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国2, server: listener.freetrade.link, port: 443, type: trojan, password: Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc, sni: listener.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: 美国3, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国4, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: 欧洲4, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲5, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: 欧洲6, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}, udp: true}
+  - {name: 美国5, server: 129.150.61.170, port: 29493, type: vmess, uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.150.61.170}, udp: true}
+  - {name: 香港1, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾1, server: gzyd2.52147.top, port: 20140, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 美国6, server: 38.143.66.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲7, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲8, server: 167.88.61.2, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国7, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国8, server: 38.143.66.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本2, server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲9, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国9, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}, udp: true}
+  - {name: 美国10, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国11, server: 38.143.66.87, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国12, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 香港2, server: gzyd1.52147.top, port: 20170, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 欧洲10, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus2.0bad.com}, udp: true}
+  - {name: 欧洲11, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 美国13, server: ifffffffuuuuuuus.qiqicdn2.cf, port: 443, type: vmess, uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess, ws-headers: {Host: ifffffffuuuuuuus.qiqicdn2.cf}, udp: true}
+  - {name: 美国14, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 亚洲1, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 新加坡3, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 欧洲12, server: 104.19.3.17, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 欧洲13, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲14, server: hnyd.52147.top, port: 20060, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 欧洲15, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
+  - {name: 美国15, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: 美国16, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国17, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国18, server: 152.69.193.245, port: 80, type: vmess, uuid: 6697776b-d009-413b-8708-822ee2e02515, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.193.245}, udp: true}
+  - {name: 新加坡4, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡5, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, sni: trojan3.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港3, server: hnyd.52147.top, port: 20170, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 香港4, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
+  - {name: 台湾2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw3, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 日本3, server: hnyd.52147.top, port: 20120, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本4, server: 89.31.126.171, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲16, server: 104.19.3.32, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 欧洲17, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 欧洲18, server: 103.90.220.27, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 欧洲19, server: 188.114.97.110, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 欧洲20, server: 152.67.223.187, port: 13774, type: vmess, uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲21, server: 104.19.3.32, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 欧洲22, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲23, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲24, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲25, server: rn.v2yyds.com, port: 31911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: rn.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 欧洲26, server: 178.62.16.161, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: 欧洲27, server: 84.33.193.79, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3, udp: true}
+  - {name: 欧洲28, server: gzyd1.52147.top, port: 20110, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 美国19, server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 美国20, server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国21, server: 38.143.66.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国22, server: 38.143.66.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国23, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国24, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国25, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.206.209}, udp: true}
+  - {name: 美国26, server: 152.69.193.245, port: 80, type: vmess, uuid: 6697776b-d009-413b-8708-822ee2e02515, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.193.245}, udp: true}
+  - {name: 亚洲2, server: cn04.downloadmovie.cn, port: 65025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
+  - {name: 亚洲3, server: cn03.downloadmovie.cn, port: 65027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}, udp: true}
+  - {name: 香港5, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: data-hk-v2.shwjfkw.cn}, udp: true}
+  - {name: 香港6, server: lc-hk03-direct01.lc-hk03.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lc-hk03-direct01.lc-hk03.lc-node.com}, udp: true}
+  - {name: 香港7, server: lc-hk03-direct01.lc-hk03.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lc-hk03-direct01.lc-hk03.lc-node.com}, udp: true}
+  - {name: 香港8, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}, udp: true}
+  - {name: 香港9, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}, udp: true}
+  - {name: 香港10, server: gzyd2.52147.top, port: 20170, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 香港11, server: cn05.downloadmovie.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: cn05.downloadmovie.cn}, udp: true}
+  - {name: 香港12, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: cn02.downloadmovie.cn}, udp: true}
+  - {name: 香港13, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港14, server: 36.139.115.52, port: 11301, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港15, server: 36.139.115.52, port: 11401, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾3, server: gzyd1.52147.top, port: 20140, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾4, server: tw.suntory.lol, port: 38511, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: tw.suntory.lol, skip-cert-verify: true, udp: true}
+  - {name: 台湾5, server: tw.suntory.lol, port: 38513, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: tw.suntory.lol, skip-cert-verify: true, udp: true}
+  - {name: 台湾6, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw1, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 日本5, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 日本6, server: gzyd1.52147.top, port: 20120, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本7, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp2, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 欧洲29, server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲30, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 欧洲31, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲32, server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲33, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 欧洲34, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
+  - {name: 欧洲35, server: gzyd1.52147.top, port: 20060, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 欧洲36, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ch, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 欧洲37, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tr, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 欧洲38, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /es, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 欧洲39, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /it, ws-headers: {Host: hk.cf-1.oceancloud.us}, udp: true}
+  - {name: 欧洲40, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 美国27, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 美国28, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us03.gogogoo.cyou}, udp: true}
+  - {name: 美国29, server: taobao.babazhuji.com, port: 443, type: vmess, uuid: 36712be8-f2ff-4875-8c67-95efd66ac994, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /didi, ws-headers: {Host: taobao.babazhuji.com}, udp: true}
+  - {name: 美国30, server: rbzz.jddsb.cf, port: 1003, type: vmess, uuid: 104ef5de-c177-464c-b3cc-6063a4afe97a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: rbzz.jddsb.cf}, udp: true}
+  - {name: 美国31, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
+  - {name: 美国32, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3908b44d1be0a4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
+  - {name: 美国33, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国34, server: gb.v2yyds.com, port: 32913, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 美国35, server: gb.v2yyds.com, port: 32911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 美国36, server: gb.v2yyds.com, port: 32912, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 美国37, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国38, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国39, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国40, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.206.209}, udp: true}
+  - {name: 美国41, server: 129.150.61.170, port: 29493, type: vmess, uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.150.61.170}, udp: true}
+  - {name: 韩国1, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /kr, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 俄罗斯1, server: v001.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a11-dCeBnloadPy, ws-headers: {Host: v001.v2dns.bar}, udp: true}
