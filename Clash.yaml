@@ -136,7 +136,7 @@ proxies:
   - {"type":"trojan","name":"🇺🇸美国1解锁流媒体","server":"45.88.148.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
   - {"type":"trojan","name":"🇻🇳越南1","server":"103.173.255.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
   - {"type":"vmess","name":"🇻🇳越南2","ws-opts":{"path":"/","headers":{"host":"YouTube-aweikeji"}},"server":"phanthikimngan.ddns.net","port":"80","uuid":"1c458173-44c7-4528-c3a7-981140369f00","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"土耳其1","server":"n1.gogoosub1.xyz","port":31901,"cipher":"aes-256-gcm","password":"1999.1999"}
+  - {"type":"ss","name":"土耳其1","server":"n1.gogoosub1.xyz","port":31901,"cipher":"aes-256-gcm","password":'"1999.1999"'}
   - {name: 亚洲1, server: cn04.downloadmovie.cn, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
   - {name: 亚洲2, server: best03.downloadmovie.cn, port: 65096, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best03.downloadmovie.cn}, udp: true}
   - {name: 亚洲3, server: 120.233.7.221, port: 18007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
