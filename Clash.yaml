@@ -157,7 +157,7 @@ proxies:
   - {name: 阿根廷_18, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 阿根廷_48, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 阿根廷_6, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷_油管-阿伟科技77, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 1d69b9af-a3bb-3ca0-9785-9937b9d8cea0, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷_77, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 1d69b9af-a3bb-3ca0-9785-9937b9d8cea0, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 澳门, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 0af22147-f2b2-3499-84d8-816b2a336b7c, sni: ma-ctm.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 澳洲_21, server: aozhou.jiashumao.net, port: 36580, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: aozhou.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 德国🇩🇪_1_67, server: 138.68.90.231, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
@@ -192,7 +192,7 @@ proxies:
   - {name: 洛杉矶2v2ray_55, server: los1.ydnode.us, port: 80, type: vmess, uuid: b6a487eb-2ccf-4640-856e-4a32f974c8b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-mode: none, grpc-service-name: los1.ydnode.us}, udp: true}
   - {name: 马来西亚_19, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: mlxy.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 美国B, server: usb-zf.jiashumao.net, port: 43001, type: trojan, password: 0af22147-f2b2-3499-84d8-816b2a336b7c, sni: usb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 美国C_油管-阿伟科技74, server: usc-zf.jiashumao.net, port: 26972, type: trojan, password: 1d69b9af-a3bb-3ca0-9785-9937b9d8cea0, sni: ahbn.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 美国C_74, server: usc-zf.jiashumao.net, port: 26972, type: trojan, password: 1d69b9af-a3bb-3ca0-9785-9937b9d8cea0, sni: ahbn.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 日本B_2, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: jpb.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 日本C_3, server: jpc-zf.jiashumao.net, port: 27301, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: jpc.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 日本C_45, server: jpc-zf.jiashumao.net, port: 27301, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: jpc.jiashumao.net, skip-cert-verify: true, udp: true}
@@ -218,7 +218,7 @@ proxies:
   - {name: 新加坡🇸🇬_34, server: 159.223.32.230, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
   - {name: 印度_20, server: yd.jiashumao.net, port: 29957, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: yd.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 印度_49, server: yd.jiashumao.net, port: 29957, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: yd.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 印度_油管-阿伟科技67, server: yd.jiashumao.net, port: 29957, type: trojan, password: 3f6ddb0a-6c38-3990-8922-24ef3af4b49c, sni: yd.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 印度_67, server: yd.jiashumao.net, port: 29957, type: trojan, password: 3f6ddb0a-6c38-3990-8922-24ef3af4b49c, sni: yd.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 印度🇮🇳_1_60, server: 139.59.85.231, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.59.85.231}}, udp: true}
   - {name: 印度🇮🇳_2_66, server: 139.59.85.231, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.59.85.231}}, udp: true}
   - {name: 印度🇮🇳_3_73, server: 139.59.85.231, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.59.85.231}}, udp: true}
